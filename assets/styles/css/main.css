@@ -41,6 +41,8 @@ button {
 body {
   min-height: 100vh;
   font-family: "Minion Pro", sans-serif;
+  color: #8dffd6;
+  background-color: #0a0a0a;
 }
 
 html {
