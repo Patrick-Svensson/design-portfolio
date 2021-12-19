@@ -106,4 +106,20 @@ p {
   font-size: clamp(0.875rem, 0.7917rem + 0.4167vw, 1.125rem);
 }
 
+.navbar {
+  background: linear-gradient(180deg, #0a0a0a 0%, rgba(10, 10, 10, 0.7) 100%);
+}
+
+.container-fluid {
+  max-width: 70rem;
+}
+
+.nav-link {
+  font-family: "Brandon Grotesque", sans-serif;
+  color: #fafafa;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 /*# sourceMappingURL=main.css.map */

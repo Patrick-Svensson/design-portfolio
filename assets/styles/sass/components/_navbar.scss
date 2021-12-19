@@ -1,0 +1,17 @@
+@use "../settings" as *;
+
+.navbar {
+    background: linear-gradient(180deg, #0a0a0a 0%, rgba(10, 10, 10, 0.7) 100%);
+}
+
+.container-fluid {
+    max-width: 70rem;
+}
+
+.nav-link {
+    font-family: $fontDisplay;
+    color: $colourWhite;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
