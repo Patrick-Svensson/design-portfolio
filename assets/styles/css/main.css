@@ -1,0 +1,19 @@
+/* Error: expected "{".
+ *    ,
+ * 82 | Loading complete
+ *    |                 ^
+ *    '
+ *   assets/styles/sass/generic/_reset.scss 82:17  @forward
+ *   assets/styles/sass/generic/_index.scss 1:1    @use
+ *   assets/styles/sass/main.scss 3:1              root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 82 \2502  Loading complete\a    \2502                  ^\a    \2575 \a   assets/styles/sass/generic/_reset.scss 82:17  @forward\a   assets/styles/sass/generic/_index.scss 1:1    @use\a   assets/styles/sass/main.scss 3:1              root stylesheet';
+}
