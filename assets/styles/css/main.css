@@ -1,3 +1,16 @@
+/* ***** Wrappers ***** */
+/* ***** Flex-Box ***** */
+/* ***** Images ***** */
+/* ***** Transform ***** */
+/* ***** Frames ***** */
+/* ***** Media Queries ***** */
+/*
+- 480px = mobile
+481 - 768px = tablet-port
+769 - 1200px = tablet-land
+1200 - 1800px = laptop (default)
+1800 - = desktop
+*/
 /* Remove default margin */
 body,
 h1,
@@ -41,8 +54,7 @@ button {
 body {
   min-height: 100vh;
   font-family: "Minion Pro", sans-serif;
-  color: #8dffd6;
-  background-color: #0a0a0a;
+  color: #0a0a0a;
 }
 
 html {
