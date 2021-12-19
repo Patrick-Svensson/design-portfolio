@@ -1,4 +1,4 @@
-   /* Remove default margin */
+/* Remove default margin */
 
 body,
 h1,
@@ -14,17 +14,9 @@ dd {
     margin: 0;
 }
 
-body {
-    min-height: 100vh;
-}
-
 a {
     display: inline-block;
     text-decoration: none;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 /* Remove default styles on ul, li elements*/
@@ -35,14 +27,6 @@ ol[class] {
     padding: 0;
 }
 
-/* Make images easier to work with */
-
-img,
-picture {
-    max-width: 100%;
-    display: block;
-}
-
 /* Remove defalut styling for buttons */
 
 button {
@@ -50,33 +34,3 @@ button {
     border: none;
     padding: 0;
 }
-
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-
-@media (prefers-reduced-motion: reduce) {
-    html:focus-within {
-        scroll-behavior: auto;
-    }
-
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-    }
-}
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete

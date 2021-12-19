@@ -1,19 +1,72 @@
-/* Error: expected "{".
- *    ,
- * 82 | Loading complete
- *    |                 ^
- *    '
- *   assets/styles/sass/generic/_reset.scss 82:17  @forward
- *   assets/styles/sass/generic/_index.scss 1:1    @use
- *   assets/styles/sass/main.scss 3:1              root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 82 \2502  Loading complete\a    \2502                  ^\a    \2575 \a   assets/styles/sass/generic/_reset.scss 82:17  @forward\a   assets/styles/sass/generic/_index.scss 1:1    @use\a   assets/styles/sass/main.scss 3:1              root stylesheet';
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Remove default styles on ul, li elements*/
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+}
+
+/* Remove defalut styling for buttons */
+button {
+  font-family: inherit;
+  border: none;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Minion Pro", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
