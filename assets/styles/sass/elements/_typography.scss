@@ -1,0 +1,28 @@
+@use "../settings" as *;
+@use "../tools" as *;
+
+h1,
+h2 {
+    font-family: $fontDisplay;
+    letter-spacing: 0.02em;
+}
+
+h1 {
+    font-weight: 700;
+    color: $colourGrey-500;
+    font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
+}
+
+h2 {
+    font-weight: 500;
+    color: $colourGrey-600;
+    font-size: clamp(1.5rem, 1.1667rem + 1.6667vw, 2.5rem);
+}
+
+p {
+    font-family: $fontMain;
+    color: $colourGrey-600;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    font-size: clamp(0.875rem, 0.7917rem + 0.4167vw, 1.125rem);
+}
