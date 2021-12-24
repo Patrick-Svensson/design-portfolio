@@ -1,0 +1,7 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg">
+<symbol viewBox="0 0 26 18"  id="menu-toggler-icon">
+<path d="M1 2.60001C10.3333 -2.94257 15.6667 8.14255 25 2.60001" stroke="#E4E4E4" stroke-width="2" stroke-linecap="round"/>
+<path d="M1 9.00016C10.3333 3.45757 15.6667 14.5427 25 9.00016" stroke="#E4E4E4" stroke-width="2" stroke-linecap="round"/>
+<path d="M1 15.4001C10.3333 9.85748 15.6667 20.9426 25 15.4001" stroke="#E4E4E4" stroke-width="2" stroke-linecap="round"/>
+</symbol>
+</svg>

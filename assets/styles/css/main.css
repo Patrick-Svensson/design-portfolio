@@ -110,8 +110,12 @@ p {
   background: linear-gradient(180deg, #0a0a0a 0%, rgba(10, 10, 10, 0.7) 100%);
 }
 
+.navbar-toggler-icon {
+  color: white;
+}
+
 .container-fluid {
-  max-width: 70rem;
+  max-width: 75rem;
 }
 
 .nav-link {
