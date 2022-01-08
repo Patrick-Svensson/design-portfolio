@@ -125,5 +125,8 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+.nav-link:hover {
+  color: #8dffd6;
+}
 
 /*# sourceMappingURL=main.css.map */
