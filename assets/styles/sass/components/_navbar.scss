@@ -4,10 +4,6 @@
     background: linear-gradient(180deg, #0a0a0a 0%, rgba(10, 10, 10, 0.7) 100%);
 }
 
-.navbar-toggler-icon {
-    color: white;
-}
-
 .container-fluid {
     max-width: 75rem;
 }
@@ -19,7 +15,7 @@
     text-transform: uppercase;
     letter-spacing: 0.04em;
 
-    &:hover {
+    /*     &:hover {
         color: $colourPrimary;
-    }
+    } */
 }
