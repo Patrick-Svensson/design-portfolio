@@ -1,8 +1,8 @@
 /* ***** Wrappers ***** */
 
 @mixin wrapper-size($width: 100%, $height: 100) {
-    width: $width;
-    height: $height;
+    min-width: $width;
+    max-height: $height;
 }
 
 /* ***** Flex-Box ***** */
@@ -23,15 +23,6 @@
     align-items: $alignCross;
 }
 
-/* ***** Images ***** */
-
-@mixin background-image($url: url(" "), $size: cover, $position: center) {
-    background-image: $url;
-    background-size: $size;
-    background-position: $position;
-    background-repeat: no-repeat;
-}
-
 /* ***** Transform ***** */
 
 @mixin transform($property) {
@@ -42,57 +33,56 @@
     transform: $property;
 }
 
-/* ***** Frames ***** */
-
-@mixin frame($width: 0, $height: 0) {
-    content: "";
-    position: absolute;
-    width: $width;
-    height: $height;
-}
-
 /* ***** Media Queries ***** */
 
 /*
-- 480px = mobile
-481 - 768px = tablet-port
-769 - 1200px = tablet-land
-1200 - 1800px = laptop (default)
-1800 - = desktop
+- 576px = x-small  (default)
+576 - 768px = small
+768 - 992px = medium
+992 - 1200px = large
+1200 - 1400px = x-large
+1400 - = xx-large
 */
 
 @mixin responsive($breakpoint) {
-    @if $breakpoint == mobile {
-        @media screen and (max-width: 30em) {
-            // 480px
+    @if $breakpoint == small {
+        @media screen and (min-width: 36em) {
+            // 576px
             @content;
         }
     }
 
-    @if $breakpoint == mobile-land {
+    @if $breakpoint == small-land {
         @media (min-width: 25em) and (max-height: 42em) {
             // 400px 672px
             @content;
         }
     }
 
-    @if $breakpoint == tablet-port {
-        @media screen and (max-width: 48em) {
+    @if $breakpoint == medium {
+        @media screen and (min-width: 48em) {
             // 768px
             @content;
         }
     }
 
-    @if $breakpoint == tablet-land {
+    @if $breakpoint == large {
+        @media screen and (max-width: 62em) {
+            // 992px
+            @content;
+        }
+    }
+
+    @if $breakpoint == x-large {
         @media screen and (max-width: 75em) {
             // 1200px
             @content;
         }
     }
 
-    @if $breakpoint == desktop {
-        @media screen and (min-width: 112.5em) {
-            // 1800px
+    @if $breakpoint == xx-large {
+        @media screen and (min-width: 87.5em) {
+            // 1400px
             @content;
         }
     }
