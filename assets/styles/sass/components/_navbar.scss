@@ -1,6 +1,6 @@
 @use "../settings" as *;
 
-.container-fluid {
+.c-navbar {
     max-width: 75rem;
 }
 
@@ -10,11 +10,9 @@
     color: $colourGrey-100;
     text-transform: uppercase;
     letter-spacing: 0.04em;
+
     &:hover,
     focus {
         color: $colourAccent;
-    }
-    &:active {
-        color: palegreen !important;
     }
 }

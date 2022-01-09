@@ -108,6 +108,11 @@ p {
   font-size: clamp(0.875rem, 0.7917rem + 0.4167vw, 1.125rem);
 }
 
+.o-header-wrapper {
+  max-width: 75rem;
+  height: 100vh;
+  position: relative;
+}
 .o-header-bg {
   width: 75%;
   height: 100vh;
@@ -130,7 +135,7 @@ p {
   }
 }
 
-.container-fluid {
+.c-navbar {
   max-width: 75rem;
 }
 
@@ -144,9 +149,6 @@ p {
 .nav-links:hover,
 .nav-links focus {
   color: #8dffd6;
-}
-.nav-links:active {
-  color: palegreen !important;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
