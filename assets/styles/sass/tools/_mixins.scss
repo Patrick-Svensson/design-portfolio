@@ -67,14 +67,14 @@
     }
 
     @if $breakpoint == large {
-        @media screen and (max-width: 62em) {
+        @media screen and (min-width: 62em) {
             // 992px
             @content;
         }
     }
 
     @if $breakpoint == x-large {
-        @media screen and (max-width: 75em) {
+        @media screen and (min-width: 75em) {
             // 1200px
             @content;
         }
