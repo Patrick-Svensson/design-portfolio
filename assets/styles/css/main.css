@@ -55,6 +55,7 @@ button {
 body {
   min-height: 100vh;
   background-color: #fafafa;
+  position: relative;
 }
 
 html {
@@ -110,22 +111,12 @@ p {
 
 .o-header-wrapper {
   max-width: 100%;
-  height: 80vh;
+  height: 85vh;
   background: url("../../images/flicka.png") no-repeat bottom right;
   background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-}
-
-/* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
-.o-waves-wrapper {
-  width: 100vw;
-  height: 20vh;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .navbar {
@@ -149,22 +140,17 @@ p {
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
 .c-waves {
-  position: relative;
   width: 100%;
   height: 100%;
   margin-bottom: -0.7rem;
   /*Fix for safari gap*/
-  min-height: 10rem;
-  max-height: 15rem;
+  height: 25vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
 .u-waves--parallax > use {
   -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;

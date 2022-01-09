@@ -2,20 +2,10 @@
 
 .o-header-wrapper {
     max-width: 100%;
-    height: 80vh;
+    height: 85vh;
     background: url("../../images/flicka.png") no-repeat bottom right;
     background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-}
-
-/* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
-
-.o-waves-wrapper {
-    @include wrapper-size(100vw, 20vh);
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
