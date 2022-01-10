@@ -133,13 +133,13 @@ p {
 @media screen and (min-width: 48em) {
   .o-header-bg {
     height: 90vh;
-    bottom: 0;
     right: 8rem;
   }
 }
 @media screen and (min-width: 75em) {
   .o-header-bg {
     opacity: 1;
+    bottom: 0;
   }
 }
 
@@ -154,8 +154,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
-.nav-links:hover,
-.nav-links focus {
+.nav-links:hover, .nav-links:focus {
   color: #8dffd6;
 }
 
@@ -173,6 +172,20 @@ p {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.c-contact-icon {
+  position: absolute;
+  bottom: 5rem;
+  right: 1rem;
+  transition: 500ms linear;
+}
+.c-contact-icon:hover, .c-contact-icon:focus {
+  -webkit-transform: scale(1.2) rotate(20deg);
+  -moz-transform: scale(1.2) rotate(20deg);
+  -ms-transform: scale(1.2) rotate(20deg);
+  -o-transform: scale(1.2) rotate(20deg);
+  transform: scale(1.2) rotate(20deg);
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

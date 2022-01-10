@@ -1,0 +1,12 @@
+@use "../tools" as *;
+
+.c-contact-icon {
+    position: absolute;
+    bottom: 5rem;
+    right: 1rem;
+    transition: 500ms linear;
+    &:hover,
+    &:focus {
+        @include transform(scale(1.2) rotate(20deg));
+    }
+}

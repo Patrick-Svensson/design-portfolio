@@ -27,11 +27,11 @@
         opacity: 0.4;
         @include responsive(medium) {
             height: 90vh;
-            bottom: 0;
             right: 8rem;
         }
         @include responsive(x-large) {
             opacity: 1;
+            bottom: 0;
         }
     }
 }
