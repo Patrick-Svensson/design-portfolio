@@ -117,6 +117,9 @@ p {
   height: 100vh;
   position: relative;
 }
+.o-header-text-wrapper {
+  height: 55%;
+}
 .o-header-bg {
   width: 75%;
   height: 100vh;
