@@ -1,0 +1,5 @@
+@use "../settings" as *;
+
+.c-header-subheading {
+    font-size: clamp(1rem, 0.8333rem + 0.8333vw, 1.5rem);
+}

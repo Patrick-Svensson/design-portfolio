@@ -108,8 +108,12 @@ p {
   font-size: clamp(0.875rem, 0.7917rem + 0.4167vw, 1.125rem);
 }
 
+.navbar {
+  background: linear-gradient(180deg, #484848 0%, #0a0a0a 100%);
+}
+
 .o-header-wrapper {
-  max-width: 75rem;
+  max-width: 82.5rem;
   height: 100vh;
   position: relative;
 }
@@ -120,13 +124,14 @@ p {
   background-size: contain;
   position: absolute;
   bottom: 4rem;
-  right: 0;
+  right: 0rem;
   opacity: 0.4;
 }
 @media screen and (min-width: 48em) {
   .o-header-bg {
     height: 90vh;
     bottom: 0;
+    right: 8rem;
   }
 }
 @media screen and (min-width: 75em) {
@@ -136,7 +141,7 @@ p {
 }
 
 .c-navbar {
-  max-width: 75rem;
+  max-width: 90rem;
 }
 
 .nav-links {
@@ -149,6 +154,10 @@ p {
 .nav-links:hover,
 .nav-links focus {
   color: #8dffd6;
+}
+
+.c-header-subheading {
+  font-size: clamp(1rem, 0.8333rem + 0.8333vw, 1.5rem);
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

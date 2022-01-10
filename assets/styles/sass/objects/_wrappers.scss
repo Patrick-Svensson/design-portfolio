@@ -1,9 +1,13 @@
 @use "../settings" as *;
 @use "../tools" as *;
 
+.navbar {
+    background: linear-gradient(180deg, #484848 0%, #0a0a0a 100%);
+}
+
 .o-header {
     &-wrapper {
-        max-width: 75rem;
+        max-width: 82.5rem;
         height: 100vh;
         position: relative;
     }
@@ -15,11 +19,12 @@
         background-size: contain;
         position: absolute;
         bottom: 4rem;
-        right: 0;
+        right: 0rem;
         opacity: 0.4;
         @include responsive(medium) {
             height: 90vh;
             bottom: 0;
+            right: 8rem;
         }
         @include responsive(x-large) {
             opacity: 1;
