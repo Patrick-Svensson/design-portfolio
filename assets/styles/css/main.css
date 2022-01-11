@@ -275,11 +275,11 @@ p {
   transition: 500ms linear;
 }
 .c-contact-icon:hover, .c-contact-icon:focus {
-  -webkit-transform: scale(1.2) rotate(20deg);
-  -moz-transform: scale(1.2) rotate(20deg);
-  -ms-transform: scale(1.2) rotate(20deg);
-  -o-transform: scale(1.2) rotate(20deg);
-  transform: scale(1.2) rotate(20deg);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
 }
 @media (min-width: 25em) and (max-height: 42em) {
   .c-contact-icon {

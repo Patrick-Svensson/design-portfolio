@@ -7,7 +7,7 @@
     transition: 500ms linear;
     &:hover,
     &:focus {
-        @include transform(scale(1.2) rotate(20deg));
+        @include transform(scale(1.2));
     }
 
     @include responsive(small-land) {
