@@ -3,6 +3,19 @@
 
 .c-navbar {
     max-width: 90rem;
+    @include responsive(large) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    @include responsive(small-land) {
+        flex-direction: column;
+        width: auto;
+        height: 90%;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     &-toggler {
         font-family: $fontDisplay;
@@ -11,11 +24,22 @@
         letter-spacing: 0.04em;
         text-transform: uppercase;
         background-color: transparent;
+        padding: 1rem 0.5rem;
+        @include responsive(small-land) {
+            padding-bottom: 0;
+        }
     }
 
     &-list {
         height: calc(100vh - 56px);
         border-top: 1px solid rgba(248, 249, 250, 0.3);
+        @include responsive(small-land) {
+            width: 100vw;
+            height: 100vh;
+            border-top: none;
+            align-items: flex-end;
+        }
+
         @include responsive(large) {
             height: auto;
             border-top: none;
@@ -23,19 +47,31 @@
     }
 
     &__list-item {
-        padding: 1em;
         border-top: 1px solid rgba(248, 249, 250, 0.3);
+        @include responsive(small-land) {
+            width: 40%;
+            padding-left: 0.5rem;
+        }
+
         @include responsive(large) {
+            padding-left: 1.5rem;
             border-top: none;
         }
     }
 
     &__link {
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 1em;
         font-family: $fontDisplay;
         font-weight: 700;
         color: $colourGrey-100;
         text-transform: uppercase;
         letter-spacing: 0.04em;
+        @include responsive(small-land) {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
 
         &:hover,
         &:focus {

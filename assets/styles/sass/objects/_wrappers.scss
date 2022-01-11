@@ -1,8 +1,14 @@
 @use "../settings" as *;
 @use "../tools" as *;
 
-.navbar {
-    background: linear-gradient(180deg, #484848 0%, #0a0a0a 100%);
+.o-navbar {
+    background: linear-gradient(180deg, #434343 0%, #0a0a0a 100%);
+    @include responsive(small-land) {
+        width: auto;
+        height: 100vh;
+        right: auto;
+        background: linear-gradient(90deg, #434343 0%, #0a0a0a 100%);
+    }
 }
 
 .o-header {
@@ -25,10 +31,15 @@
         bottom: 4rem;
         right: 0rem;
         opacity: 0.4;
+        @include responsive(small-land) {
+            bottom: 0;
+        }
+
         @include responsive(medium) {
             height: 90vh;
             right: 8rem;
         }
+
         @include responsive(x-large) {
             opacity: 1;
             bottom: 0;

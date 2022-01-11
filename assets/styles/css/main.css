@@ -108,8 +108,16 @@ p {
   font-size: clamp(0.875rem, 0.7917rem + 0.4167vw, 1.125rem);
 }
 
-.navbar {
-  background: linear-gradient(180deg, #484848 0%, #0a0a0a 100%);
+.o-navbar {
+  background: linear-gradient(180deg, #434343 0%, #0a0a0a 100%);
+}
+@media (min-width: 25em) and (max-height: 42em) {
+  .o-navbar {
+    width: auto;
+    height: 100vh;
+    right: auto;
+    background: linear-gradient(90deg, #434343 0%, #0a0a0a 100%);
+  }
 }
 
 .o-header-wrapper {
@@ -130,6 +138,11 @@ p {
   right: 0rem;
   opacity: 0.4;
 }
+@media (min-width: 25em) and (max-height: 42em) {
+  .o-header-bg {
+    bottom: 0;
+  }
+}
 @media screen and (min-width: 48em) {
   .o-header-bg {
     height: 90vh;
@@ -146,6 +159,22 @@ p {
 .c-navbar {
   max-width: 90rem;
 }
+@media screen and (min-width: 62em) {
+  .c-navbar {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 25em) and (max-height: 42em) {
+  .c-navbar {
+    flex-direction: column;
+    width: auto;
+    height: 90%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .c-navbar-toggler {
   font-family: "Brandon Grotesque", sans-serif;
   font-weight: 700;
@@ -153,10 +182,24 @@ p {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   background-color: transparent;
+  padding: 1rem 0.5rem;
+}
+@media (min-width: 25em) and (max-height: 42em) {
+  .c-navbar-toggler {
+    padding-bottom: 0;
+  }
 }
 .c-navbar-list {
   height: calc(100vh - 56px);
   border-top: 1px solid rgba(248, 249, 250, 0.3);
+}
+@media (min-width: 25em) and (max-height: 42em) {
+  .c-navbar-list {
+    width: 100vw;
+    height: 100vh;
+    border-top: none;
+    align-items: flex-end;
+  }
 }
 @media screen and (min-width: 62em) {
   .c-navbar-list {
@@ -165,20 +208,35 @@ p {
   }
 }
 .c-navbar__list-item {
-  padding: 1em;
   border-top: 1px solid rgba(248, 249, 250, 0.3);
+}
+@media (min-width: 25em) and (max-height: 42em) {
+  .c-navbar__list-item {
+    width: 40%;
+    padding-left: 0.5rem;
+  }
 }
 @media screen and (min-width: 62em) {
   .c-navbar__list-item {
+    padding-left: 1.5rem;
     border-top: none;
   }
 }
 .c-navbar__link {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
   font-family: "Brandon Grotesque", sans-serif;
   font-weight: 700;
   color: #f8f9fa;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+@media (min-width: 25em) and (max-height: 42em) {
+  .c-navbar__link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 .c-navbar__link:hover, .c-navbar__link:focus {
   color: #8dffd6;
@@ -198,6 +256,11 @@ p {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+@media (min-width: 25em) and (max-height: 42em) {
+  .c-waves {
+    display: none;
+  }
 }
 
 .c-contact-icon {
