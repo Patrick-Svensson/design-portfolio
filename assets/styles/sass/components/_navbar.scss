@@ -1,18 +1,45 @@
 @use "../settings" as *;
+@use "../tools" as *;
 
 .c-navbar {
     max-width: 90rem;
-}
 
-.nav-links {
-    font-family: $fontDisplay;
-    font-weight: 700;
-    color: $colourGrey-100;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
+    &-toggler {
+        font-family: $fontDisplay;
+        font-weight: 700;
+        font-size: 1.25;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        background-color: transparent;
+    }
 
-    &:hover,
-    &:focus {
-        color: $colourAccent;
+    &-list {
+        height: calc(100vh - 56px);
+        border-top: 1px solid rgba(248, 249, 250, 0.3);
+        @include responsive(large) {
+            height: auto;
+            border-top: none;
+        }
+    }
+
+    &__list-item {
+        padding: 1em;
+        border-top: 1px solid rgba(248, 249, 250, 0.3);
+        @include responsive(large) {
+            border-top: none;
+        }
+    }
+
+    &__link {
+        font-family: $fontDisplay;
+        font-weight: 700;
+        color: $colourGrey-100;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+
+        &:hover,
+        &:focus {
+            color: $colourAccent;
+        }
     }
 }

@@ -146,15 +146,41 @@ p {
 .c-navbar {
   max-width: 90rem;
 }
-
-.nav-links {
+.c-navbar-toggler {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 1.25;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.c-navbar-list {
+  height: calc(100vh - 56px);
+  border-top: 1px solid rgba(248, 249, 250, 0.3);
+}
+@media screen and (min-width: 62em) {
+  .c-navbar-list {
+    height: auto;
+    border-top: none;
+  }
+}
+.c-navbar__list-item {
+  padding: 1em;
+  border-top: 1px solid rgba(248, 249, 250, 0.3);
+}
+@media screen and (min-width: 62em) {
+  .c-navbar__list-item {
+    border-top: none;
+  }
+}
+.c-navbar__link {
   font-family: "Brandon Grotesque", sans-serif;
   font-weight: 700;
   color: #f8f9fa;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
-.nav-links:hover, .nav-links:focus {
+.c-navbar__link:hover, .c-navbar__link:focus {
   color: #8dffd6;
 }
 
