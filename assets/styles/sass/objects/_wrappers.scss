@@ -20,6 +20,9 @@
 
     &-text-wrapper {
         height: 55%;
+        @include responsive(small-land) {
+            height: 75%;
+        }
     }
 
     &-bg {

@@ -128,6 +128,11 @@ p {
 .o-header-text-wrapper {
   height: 55%;
 }
+@media (min-width: 25em) and (max-height: 42em) {
+  .o-header-text-wrapper {
+    height: 75%;
+  }
+}
 .o-header-bg {
   width: 75%;
   height: 100vh;
@@ -275,6 +280,11 @@ p {
   -ms-transform: scale(1.2) rotate(20deg);
   -o-transform: scale(1.2) rotate(20deg);
   transform: scale(1.2) rotate(20deg);
+}
+@media (min-width: 25em) and (max-height: 42em) {
+  .c-contact-icon {
+    bottom: 3rem;
+  }
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

@@ -9,4 +9,8 @@
     &:focus {
         @include transform(scale(1.2) rotate(20deg));
     }
+
+    @include responsive(small-land) {
+        bottom: 3rem;
+    }
 }
