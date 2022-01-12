@@ -52,6 +52,13 @@
         }
     }
 
+    @if $breakpoint == x-small-land {
+        @media (max-width: 43em) and (max-height: 25em) {
+            // 690px 400px
+            @content;
+        }
+    }
+
     @if $breakpoint == small-land {
         @media (min-width: 25em) and (max-height: 42em) {
             // 400px 672px

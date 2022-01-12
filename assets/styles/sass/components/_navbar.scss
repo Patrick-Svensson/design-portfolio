@@ -3,18 +3,24 @@
 
 .c-navbar {
     max-width: 90rem;
+    padding-right: 0;
+    @include responsive(small-land) {
+        flex-direction: column;
+        width: auto;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
     @include responsive(large) {
         padding-left: 3rem;
         padding-right: 3rem;
     }
 
-    @include responsive(small-land) {
-        flex-direction: column;
-        width: auto;
-        height: 90%;
-        margin: 0;
-        padding-left: 0;
-        padding-right: 0;
+    &-logo {
+        @include responsive(small-land) {
+            padding-top: 1rem;
+        }
     }
 
     &-toggler {
@@ -24,9 +30,9 @@
         letter-spacing: 0.04em;
         text-transform: uppercase;
         background-color: transparent;
-        padding: 1rem 0.5rem;
+        padding: 1rem;
         @include responsive(small-land) {
-            padding-bottom: 0;
+            padding: 1rem 0.5rem;
         }
     }
 

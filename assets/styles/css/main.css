@@ -113,27 +113,32 @@ p {
 }
 @media (min-width: 25em) and (max-height: 42em) {
   .o-navbar {
-    width: auto;
     height: 100vh;
     right: auto;
     background: linear-gradient(90deg, #434343 0%, #0a0a0a 100%);
   }
 }
 
-.o-header-wrapper {
+.o-index-header-wrapper {
   max-width: 82.5rem;
   height: 100vh;
   position: relative;
+  padding: 0 1rem;
 }
-.o-header-text-wrapper {
+.o-index-header-text-wrapper {
   height: 55%;
 }
+@media (max-width: 43em) and (max-height: 25em) {
+  .o-index-header-text-wrapper {
+    width: 30rem;
+  }
+}
 @media (min-width: 25em) and (max-height: 42em) {
-  .o-header-text-wrapper {
+  .o-index-header-text-wrapper {
     height: 75%;
   }
 }
-.o-header-bg {
+.o-index-header-bg {
   width: 75%;
   height: 100vh;
   background: url("../../images/flicka.png") no-repeat bottom right;
@@ -144,18 +149,18 @@ p {
   opacity: 0.4;
 }
 @media (min-width: 25em) and (max-height: 42em) {
-  .o-header-bg {
+  .o-index-header-bg {
     bottom: 0;
   }
 }
 @media screen and (min-width: 48em) {
-  .o-header-bg {
+  .o-index-header-bg {
     height: 90vh;
     right: 8rem;
   }
 }
 @media screen and (min-width: 75em) {
-  .o-header-bg {
+  .o-index-header-bg {
     opacity: 1;
     bottom: 0;
   }
@@ -163,6 +168,16 @@ p {
 
 .c-navbar {
   max-width: 90rem;
+  padding-right: 0;
+}
+@media (min-width: 25em) and (max-height: 42em) {
+  .c-navbar {
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 @media screen and (min-width: 62em) {
   .c-navbar {
@@ -171,13 +186,8 @@ p {
   }
 }
 @media (min-width: 25em) and (max-height: 42em) {
-  .c-navbar {
-    flex-direction: column;
-    width: auto;
-    height: 90%;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
+  .c-navbar-logo {
+    padding-top: 1rem;
   }
 }
 .c-navbar-toggler {
@@ -187,11 +197,11 @@ p {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   background-color: transparent;
-  padding: 1rem 0.5rem;
+  padding: 1rem;
 }
 @media (min-width: 25em) and (max-height: 42em) {
   .c-navbar-toggler {
-    padding-bottom: 0;
+    padding: 1rem 0.5rem;
   }
 }
 .c-navbar-list {

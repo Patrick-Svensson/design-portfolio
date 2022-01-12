@@ -4,22 +4,26 @@
 .o-navbar {
     background: linear-gradient(180deg, #434343 0%, #0a0a0a 100%);
     @include responsive(small-land) {
-        width: auto;
         height: 100vh;
         right: auto;
         background: linear-gradient(90deg, #434343 0%, #0a0a0a 100%);
     }
 }
 
-.o-header {
+.o-index-header {
     &-wrapper {
         max-width: 82.5rem;
         height: 100vh;
         position: relative;
+        padding: 0 1rem;
     }
 
     &-text-wrapper {
         height: 55%;
+        @include responsive(x-small-land) {
+            width: 30rem;
+        }
+
         @include responsive(small-land) {
             height: 75%;
         }
