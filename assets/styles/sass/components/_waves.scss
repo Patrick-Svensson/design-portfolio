@@ -9,7 +9,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    @include responsive(small-land) {
+    @include responsive(x-small-land) {
         display: none;
     }
 }
