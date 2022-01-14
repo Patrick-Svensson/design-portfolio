@@ -1,7 +1,7 @@
 @use "../tools" as *;
 
 .c-contact-icon {
-    position: absolute;
+    position: fixed;
     bottom: 5rem;
     right: 1rem;
     transition: 500ms linear;

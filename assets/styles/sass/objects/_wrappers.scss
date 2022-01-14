@@ -53,3 +53,14 @@
         }
     }
 }
+
+/* About Me Page */
+
+.o-about {
+    &-header-wrapper {
+        width: 100%;
+        height: 30vh;
+        @include flex(row, wrap, center, flex-end);
+        margin-bottom: 3rem;
+    }
+}
