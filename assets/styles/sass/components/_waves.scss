@@ -13,3 +13,12 @@
         display: none;
     }
 }
+
+.c-wave-bottom-bg {
+    box-sizing: content-box;
+    background: url("../../images/wave-bg.svg") no-repeat;
+    background-size: cover;
+    height: 0;
+    padding: 0; /* reset */
+    padding-bottom: calc(100% * 1 / 5);
+}

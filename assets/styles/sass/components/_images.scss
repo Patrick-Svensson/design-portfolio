@@ -1,21 +1,28 @@
 @use "../tools" as *;
 
-.c-myself {
-    width: 12rem;
-    height: 12rem;
-    border-radius: 50%;
-    float: left;
-    shape-outside: circle(50%);
-    margin: 0 1rem 0.5rem 0;
-    @include responsive(medium) {
-        width: 20rem;
-        height: 20rem;
-        margin-bottom: 1rem;
-        margin-right: 1rem;
-    }
-
-    @include responsive(small-land) {
+.c-image {
+    &__myself {
         width: 12rem;
         height: 12rem;
+        border-radius: 50%;
+        float: left;
+        shape-outside: circle(50%);
+        margin: 0 1rem 0.5rem 0;
+        @include responsive(medium) {
+            width: 20rem;
+            height: 20rem;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+        }
+
+        @include responsive(small-land) {
+            width: 12rem;
+            height: 12rem;
+        }
+    }
+
+    &__testimonials {
+        border-radius: 50%;
+        filter: grayscale(100%);
     }
 }

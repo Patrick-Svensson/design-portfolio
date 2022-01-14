@@ -23,6 +23,7 @@ p {
     color: $colourGrey-600;
     font-weight: 400;
     letter-spacing: 0.02em;
+    line-height: 1.5rem;
     font-size: clamp(0.875rem, 0.7917rem + 0.4167vw, 1.125rem);
     padding-top: 1rem;
 }

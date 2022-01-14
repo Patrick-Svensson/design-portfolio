@@ -1,0 +1,7 @@
+@use "../settings" as *;
+
+.c-testimonial__quote {
+    font-size: 0.875rem;
+    color: $colourGrey-100;
+    line-height: 1.25rem;
+}

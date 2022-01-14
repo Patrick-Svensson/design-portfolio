@@ -105,6 +105,7 @@ p {
   color: #0a0a0a;
   font-weight: 400;
   letter-spacing: 0.02em;
+  line-height: 1.5rem;
   font-size: clamp(0.875rem, 0.7917rem + 0.4167vw, 1.125rem);
   padding-top: 1rem;
 }
@@ -186,7 +187,6 @@ p {
   -webkit-box-align: flex-end;
   -ms-flex-align: flex-end;
   align-items: flex-end;
-  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
@@ -197,6 +197,7 @@ p {
 }
 .o-about-main-wrapper {
   max-width: 64rem;
+  padding: 0 1rem 8rem;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .o-about-main-wrapper {
@@ -209,6 +210,11 @@ p {
     max-width: 35rem;
     margin-top: 0;
   }
+}
+
+.o-testimonials-wrapper {
+  width: 100vw;
+  height: 15rem;
 }
 
 .c-navbar {
@@ -323,9 +329,19 @@ p {
   }
 }
 
+.c-wave-bottom-bg {
+  box-sizing: content-box;
+  background: url("../../images/wave-bg.svg") no-repeat;
+  background-size: cover;
+  height: 0;
+  padding: 0;
+  /* reset */
+  padding-bottom: 20%;
+}
+
 .c-contact-icon {
   position: fixed;
-  bottom: 5rem;
+  bottom: 3rem;
   right: 1rem;
   transition: 500ms linear;
 }
@@ -342,7 +358,7 @@ p {
   }
 }
 
-.c-myself {
+.c-image__myself {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
@@ -351,7 +367,7 @@ p {
   margin: 0 1rem 0.5rem 0;
 }
 @media screen and (min-width: 48em) {
-  .c-myself {
+  .c-image__myself {
     width: 20rem;
     height: 20rem;
     margin-bottom: 1rem;
@@ -359,15 +375,25 @@ p {
   }
 }
 @media (min-width: 43em) and (max-height: 42em) {
-  .c-myself {
+  .c-image__myself {
     width: 12rem;
     height: 12rem;
   }
+}
+.c-image__testimonials {
+  border-radius: 50%;
+  filter: grayscale(100%);
 }
 
 .c-small-caps {
   font-weight: 600;
   font-variant: small-caps;
+}
+
+.c-testimonial__quote {
+  font-size: 0.875rem;
+  color: #f8f9fa;
+  line-height: 1.25rem;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
