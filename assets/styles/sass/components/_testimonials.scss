@@ -3,7 +3,7 @@
 .c-testimonials {
     &__quote {
         font-size: 0.875rem;
-        color: $colourGrey-600;
+        color: $colourGrey-100;
         line-height: 1rem;
     }
 
@@ -14,5 +14,6 @@
 
     &__figcaption-cite {
         font-size: 0.75rem;
+        color: $colourGrey-100;
     }
 }

@@ -178,6 +178,12 @@ p {
 }
 .o-about-main-wrapper {
   max-width: 64rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 48em) {
+  .o-about-main-wrapper {
+    margin-bottom: 5rem;
+  }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .o-about-main-wrapper {
@@ -312,13 +318,12 @@ p {
   }
 }
 
-/* .c-wave-bottom-bg {
-    box-sizing: content-box;
-    background: url("../../images/wave-bg.svg") no-repeat;
-    background-size: cover;
-    height: 0;
-    padding-bottom: calc(100% * 1 / 5);
-} */
+.c-wave-bottom-bg {
+  background: url("../../images/wave-bg.svg") no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
 .c-contact-icon {
   position: fixed;
   bottom: 5rem;
@@ -373,7 +378,7 @@ p {
 
 .c-testimonials__quote {
   font-size: 0.875rem;
-  color: #0a0a0a;
+  color: #f8f9fa;
   line-height: 1rem;
 }
 .c-testimonials__figcaption-link {
@@ -382,6 +387,7 @@ p {
 }
 .c-testimonials__figcaption-cite {
   font-size: 0.75rem;
+  color: #f8f9fa;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

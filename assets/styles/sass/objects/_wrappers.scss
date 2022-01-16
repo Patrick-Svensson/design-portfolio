@@ -66,6 +66,11 @@
 
     &-main-wrapper {
         max-width: 64rem;
+        margin-bottom: 2rem;
+        @include responsive(medium) {
+            margin-bottom: 5rem;
+        }
+
         @include responsive(small-land) {
             width: 80%;
             margin-top: 0;
