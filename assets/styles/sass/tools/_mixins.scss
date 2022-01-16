@@ -1,28 +1,3 @@
-/* ***** Wrappers ***** */
-
-@mixin wrapper-size($width: 100%, $height: 100%) {
-    min-width: $width;
-    max-height: $height;
-}
-
-/* ***** Flex-Box ***** */
-
-@mixin flex($direction: row, $break: nowrap, $alignMain: center, $alignCross: center) {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: $direction $break;
-    flex-flow: $direction $break;
-    -webkit-box-pack: $alignMain;
-    -ms-flex-pack: $alignMain;
-    justify-content: $alignMain;
-    -webkit-box-align: $alignCross;
-    -ms-flex-align: $alignCross;
-    align-items: $alignCross;
-}
-
 /* ***** Transform ***** */
 
 @mixin transform($property) {
