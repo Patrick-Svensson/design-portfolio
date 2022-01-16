@@ -3,7 +3,8 @@
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
 
 .c-waves {
-    @include wrapper-size(100%, 100%);
+    min-width: 100%;
+    max-height: 100%;
     margin-bottom: -0.7rem; /*Fix for safari gap*/
     height: 25vh;
     position: absolute;
