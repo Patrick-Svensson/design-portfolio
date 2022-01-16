@@ -1,7 +1,18 @@
 @use "../settings" as *;
 
-.c-testimonial__quote {
-    font-size: 0.875rem;
-    color: $colourGrey-100;
-    line-height: 1.25rem;
+.c-testimonials {
+    &__quote {
+        font-size: 0.875rem;
+        color: $colourGrey-600;
+        line-height: 1rem;
+    }
+
+    &__figcaption-link {
+        font-size: 0.875rem;
+        color: $colourAccent;
+    }
+
+    &__figcaption-cite {
+        font-size: 0.75rem;
+    }
 }

@@ -10,16 +10,15 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    @include responsive(x-small-land) {
+    @include responsive(small-land) {
         display: none;
     }
 }
 
-.c-wave-bottom-bg {
+/* .c-wave-bottom-bg {
     box-sizing: content-box;
     background: url("../../images/wave-bg.svg") no-repeat;
     background-size: cover;
     height: 0;
-    padding: 0; /* reset */
     padding-bottom: calc(100% * 1 / 5);
-}
+} */

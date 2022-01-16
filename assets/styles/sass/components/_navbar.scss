@@ -4,7 +4,12 @@
 .c-navbar {
     max-width: 90rem;
     padding-right: 0;
-    @include responsive(x-small-land) {
+    @include responsive(medium) {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    @include responsive(small-land) {
         flex-direction: column;
         width: auto;
         height: 100%;
@@ -12,13 +17,8 @@
         padding: 0;
     }
 
-    @include responsive(large) {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-
     &-logo {
-        @include responsive(x-small-land) {
+        @include responsive(small-land) {
             padding-top: 1rem;
         }
     }
@@ -31,7 +31,7 @@
         text-transform: uppercase;
         background-color: transparent;
         padding: 1rem;
-        @include responsive(x-small-land) {
+        @include responsive(small-land) {
             padding: 1rem 0.5rem;
         }
     }
@@ -39,29 +39,29 @@
     &-list {
         height: calc(100vh - 56px);
         border-top: 1px solid rgba(248, 249, 250, 0.3);
-        @include responsive(x-small-land) {
+        @include responsive(large) {
+            height: auto;
+            border-top: none;
+        }
+
+        @include responsive(small-land) {
             width: 100vw;
             height: 100vh;
             border-top: none;
             align-items: flex-end;
         }
-
-        @include responsive(large) {
-            height: auto;
-            border-top: none;
-        }
     }
 
     &__list-item {
         border-top: 1px solid rgba(248, 249, 250, 0.3);
-        @include responsive(x-small-land) {
-            width: 40%;
-            padding-left: 0.5rem;
-        }
-
         @include responsive(large) {
             padding-left: 1.5rem;
             border-top: none;
+        }
+
+        @include responsive(small-land) {
+            width: 40%;
+            padding-left: 0.5rem;
         }
     }
 
@@ -74,7 +74,7 @@
         color: $colourGrey-100;
         text-transform: uppercase;
         letter-spacing: 0.04em;
-        @include responsive(x-small-land) {
+        @include responsive(small-land) {
             padding-top: 0.5rem;
             padding-bottom: 0.5rem;
         }
