@@ -394,6 +394,7 @@ p {
 .c-testimonials__figcaption-cite {
   font-size: 0.75rem;
   color: #f8f9fa;
+  opacity: 60%;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
