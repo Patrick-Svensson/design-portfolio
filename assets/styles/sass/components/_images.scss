@@ -5,6 +5,8 @@
         width: 10rem;
         height: 10rem;
         border-radius: 50%;
+        object-fit: cover;
+        filter: grayscale(100%);
         float: left;
         shape-outside: circle(50%);
         margin: 0 1rem 1rem 0;

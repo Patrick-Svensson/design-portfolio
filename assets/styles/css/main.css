@@ -192,10 +192,33 @@ p {
   }
 }
 .o-about-aside-wrapper {
-  width: 100vw;
-  background: linear-gradient(180deg, #434343 0%, #0a0a0a);
+  min-width: 100vw;
   position: relative;
   z-index: -100;
+  background-image: url(../../images/wave-left.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media screen and (min-width: 36em) {
+  .o-about-aside-wrapper {
+    background-image: url(../../images/wave-sm-left.png);
+  }
+}
+@media screen and (min-width: 48em) {
+  .o-about-aside-wrapper {
+    background-image: url(../../images/wave-md-left.png);
+  }
+}
+@media screen and (min-width: 62em) {
+  .o-about-aside-wrapper {
+    background-image: url(../../images/wave-lg-left.png);
+  }
+}
+@media screen and (min-width: 75em) {
+  .o-about-aside-wrapper {
+    background-size: cover;
+  }
 }
 
 .o-testimonials-wrapper {
@@ -208,14 +231,15 @@ p {
     max-width: 80%;
   }
 }
+@media screen and (min-width: 62em) {
+  .o-testimonials-wrapper {
+    padding-top: 8rem;
+  }
+}
 
 .o-testimonials-image-wrapper {
   width: 5.5rem;
   height: 5.5rem;
-}
-
-.o-testimonial__quote-wrapper {
-  position: relative;
 }
 
 .c-navbar {
@@ -353,6 +377,8 @@ p {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
+  object-fit: cover;
+  filter: grayscale(100%);
   float: left;
   shape-outside: circle(50%);
   margin: 0 1rem 1rem 0;

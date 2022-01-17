@@ -78,10 +78,28 @@
     }
 
     &-aside-wrapper {
-        width: 100vw;
-        background: linear-gradient(180deg, $colourGrey-400 0%, $colourGrey-600);
+        min-width: 100vw;
         position: relative;
         z-index: -100;
+        background-image: url(../../images/wave-left.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        @include responsive(small) {
+            background-image: url(../../images/wave-sm-left.png);
+        }
+
+        @include responsive(medium) {
+            background-image: url(../../images/wave-md-left.png);
+        }
+
+        @include responsive(large) {
+            background-image: url(../../images/wave-lg-left.png);
+        }
+
+        @include responsive(x-large) {
+            background-size: cover;
+        }
     }
 }
 
@@ -92,13 +110,13 @@
     @include responsive(small-land) {
         max-width: 80%;
     }
+
+    @include responsive(large) {
+        padding-top: 8rem;
+    }
 }
 
 .o-testimonials-image-wrapper {
     width: 5.5rem;
     height: 5.5rem;
-}
-
-.o-testimonial__quote-wrapper {
-    position: relative;
 }
