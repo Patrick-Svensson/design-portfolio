@@ -2,11 +2,11 @@
 @use "../tools" as *;
 
 .o-navbar {
-    background: linear-gradient(180deg, #434343 0%, #0a0a0a 100%);
+    background: linear-gradient(180deg, $colourGrey-400 0%, $colourGrey-600);
     @include responsive(small-land) {
         height: 100vh;
         right: auto;
-        background: linear-gradient(90deg, #434343 0%, #0a0a0a 100%);
+        background: linear-gradient(90deg, $colourGrey-400 0%, $colourGrey-600);
     }
 }
 
@@ -79,7 +79,7 @@
 
     &-aside-wrapper {
         width: 100vw;
-        background-color: $colourGrey-600;
+        background: linear-gradient(180deg, $colourGrey-400 0%, $colourGrey-600);
         position: relative;
         z-index: -100;
     }
