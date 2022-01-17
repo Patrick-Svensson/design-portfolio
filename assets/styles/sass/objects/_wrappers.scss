@@ -66,9 +66,9 @@
 
     &-main-wrapper {
         max-width: 64rem;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
         @include responsive(medium) {
-            margin-bottom: 5rem;
+            margin-bottom: 8rem;
         }
 
         @include responsive(small-land) {
@@ -76,10 +76,19 @@
             margin-top: 0;
         }
     }
+
+    &-aside-wrapper {
+        width: 100vw;
+        background-color: $colourGrey-600;
+        position: relative;
+        z-index: -100;
+    }
 }
 
 .o-testimonials-wrapper {
     max-width: 90rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     @include responsive(small-land) {
         max-width: 80%;
     }
@@ -88,4 +97,8 @@
 .o-testimonials-image-wrapper {
     width: 5.5rem;
     height: 5.5rem;
+}
+
+.o-testimonial__quote-wrapper {
+    position: relative;
 }
