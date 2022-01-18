@@ -57,10 +57,23 @@
 .o-about {
     &-header-wrapper {
         width: 100%;
-        height: 35vh;
+        padding-top: 8rem;
         margin-bottom: 3rem;
+        @include responsive(medium) {
+            padding-top: 12rem;
+        }
+
+        @include responsive(large) {
+            padding-top: 16rem;
+        }
+
+        @include responsive(x-large) {
+            padding-top: 12rem;
+        }
+
         @include responsive(small-land) {
             margin-top: 0;
+            padding-left: 3rem;
         }
     }
 
@@ -68,6 +81,14 @@
         max-width: 64rem;
         margin-bottom: 5rem;
         @include responsive(medium) {
+            margin-bottom: 8rem;
+        }
+
+        @include responsive(large) {
+            margin-bottom: 12rem;
+        }
+
+        @include responsive(x-large) {
             margin-bottom: 8rem;
         }
 
