@@ -101,21 +101,20 @@
     &-aside-wrapper {
         min-width: 100vw;
         position: relative;
-        z-index: -100;
-        background-image: url(../../images/wave-left.png);
+        background-image: url(../../images/wave-left.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center top;
         @include responsive(small) {
-            background-image: url(../../images/wave-sm-left.png);
+            background-image: url(../../images/wave-sm-left.svg);
         }
 
         @include responsive(medium) {
-            background-image: url(../../images/wave-md-left.png);
+            background-image: url(../../images/wave-md-left.svg);
         }
 
         @include responsive(large) {
-            background-image: url(../../images/wave-lg-left.png);
+            background-image: url(../../images/wave-lg-left.svg);
         }
 
         @include responsive(x-large) {

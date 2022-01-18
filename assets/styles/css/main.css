@@ -220,25 +220,24 @@ p {
 .o-about-aside-wrapper {
   min-width: 100vw;
   position: relative;
-  z-index: -100;
-  background-image: url(../../images/wave-left.png);
+  background-image: url(../../images/wave-left.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
 }
 @media screen and (min-width: 36em) {
   .o-about-aside-wrapper {
-    background-image: url(../../images/wave-sm-left.png);
+    background-image: url(../../images/wave-sm-left.svg);
   }
 }
 @media screen and (min-width: 48em) {
   .o-about-aside-wrapper {
-    background-image: url(../../images/wave-md-left.png);
+    background-image: url(../../images/wave-md-left.svg);
   }
 }
 @media screen and (min-width: 62em) {
   .o-about-aside-wrapper {
-    background-image: url(../../images/wave-lg-left.png);
+    background-image: url(../../images/wave-lg-left.svg);
   }
 }
 @media screen and (min-width: 75em) {
@@ -356,7 +355,10 @@ p {
   }
 }
 .c-navbar__link:hover, .c-navbar__link:focus {
-  color: #8dffd6;
+  color: #bebebe;
+}
+.c-navbar__link:active {
+  color: #7ef4ae;
 }
 
 .c-header-subheading {
@@ -386,17 +388,17 @@ p {
   right: 1rem;
   transition: 500ms linear;
 }
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .c-contact-icon {
+    bottom: 3rem;
+  }
+}
 .c-contact-icon:hover, .c-contact-icon:focus {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2);
-}
-@media (min-width: 25em) and (max-height: 42.9em) {
-  .c-contact-icon {
-    bottom: 3rem;
-  }
 }
 
 .c-image__myself {
@@ -441,12 +443,14 @@ p {
 }
 .c-testimonials__figcaption-link {
   font-size: 0.875rem;
-  color: #8dffd6;
+  color: #7ef4ae;
+}
+.c-testimonials__figcaption-link:hover, .c-testimonials__figcaption-link:focus {
+  color: #50d185;
 }
 .c-testimonials__figcaption-cite {
   font-size: 0.75rem;
-  color: #f8f9fa;
-  opacity: 60%;
+  color: #bebebe;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

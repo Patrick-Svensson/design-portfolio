@@ -1,4 +1,5 @@
 @use "../settings" as *;
+@use "../tools" as *;
 
 .c-testimonials {
     &__quote {
@@ -9,12 +10,15 @@
 
     &__figcaption-link {
         font-size: 0.875rem;
-        color: $colourAccent;
+        color: $colourAccent-100;
+        &:hover,
+        &:focus {
+            color: $colourAccent-200;
+        }
     }
 
     &__figcaption-cite {
         font-size: 0.75rem;
-        color: $colourGrey-100;
-        opacity: 60%;
+        color: $colourGrey-200;
     }
 }

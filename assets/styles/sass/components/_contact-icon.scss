@@ -5,12 +5,12 @@
     bottom: 5rem;
     right: 1rem;
     transition: 500ms linear;
+    @include responsive(small-land) {
+        bottom: 3rem;
+    }
+
     &:hover,
     &:focus {
         @include transform(scale(1.2));
-    }
-
-    @include responsive(small-land) {
-        bottom: 3rem;
     }
 }
