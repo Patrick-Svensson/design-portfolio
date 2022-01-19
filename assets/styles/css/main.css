@@ -126,18 +126,17 @@ p {
   max-width: 82.5rem;
   height: 100vh;
   position: relative;
-  padding: 0 1rem;
 }
-.o-index-header-text-wrapper {
+.o-index-text-wrapper {
   height: 55%;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
-  .o-index-header-text-wrapper {
+  .o-index-text-wrapper {
     width: 80%;
     height: 75%;
   }
 }
-.o-index-header-bg {
+.o-index-bg {
   width: 75%;
   height: 100vh;
   background: url("../../images/flicka.png") no-repeat bottom right;
@@ -148,19 +147,19 @@ p {
   opacity: 0.4;
 }
 @media screen and (min-width: 48em) {
-  .o-index-header-bg {
+  .o-index-bg {
     height: 90vh;
     right: 8rem;
   }
 }
 @media screen and (min-width: 75em) {
-  .o-index-header-bg {
+  .o-index-bg {
     opacity: 1;
     bottom: 0;
   }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
-  .o-index-header-bg {
+  .o-index-bg {
     bottom: 0;
   }
 }
@@ -267,6 +266,10 @@ p {
   height: 5.5rem;
 }
 
+.o-contact-wrapper {
+  padding-top: 10rem;
+}
+
 .c-navbar {
   max-width: 90rem;
   padding-right: 0;
@@ -364,11 +367,20 @@ p {
 .c-header-subheading {
   font-size: clamp(1.125rem, 0.9167rem + 1.0417vw, 1.75rem);
 }
+.c-header__contact-heading {
+  font-size: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  font-weight: 500;
+}
+.c-header__contact-link {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+  font-weight: 700;
+  color: #434343;
+}
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
 .c-index-waves {
   min-width: 100%;
-  max-height: 100%;
   margin-bottom: -0.7rem;
   /*Fix for safari gap*/
   height: 25vh;
@@ -401,12 +413,20 @@ p {
   transform: scale(1.2);
 }
 
+.c-image {
+  min-width: 100%;
+  max-height: 100%;
+}
+.c-image--bw {
+  filter: grayscale(100%);
+}
+.c-image--circle {
+  border-radius: 50%;
+  object-fit: cover;
+}
 .c-image__myself {
   width: 10rem;
   height: 10rem;
-  border-radius: 50%;
-  object-fit: cover;
-  filter: grayscale(100%);
   float: left;
   shape-outside: circle(50%);
   margin: 0 1rem 1rem 0;
@@ -423,12 +443,6 @@ p {
     width: 12rem;
     height: 12rem;
   }
-}
-.c-image__testimonials {
-  min-width: 100%;
-  max-height: 100%;
-  border-radius: 50%;
-  filter: grayscale(100%);
 }
 
 .c-small-caps {

@@ -10,12 +10,11 @@
     }
 }
 
-.o-index-header {
-    &-wrapper {
+.o-index {
+    &-header-wrapper {
         max-width: 82.5rem;
         height: 100vh;
         position: relative;
-        padding: 0 1rem;
     }
 
     &-text-wrapper {
@@ -139,4 +138,8 @@
 .o-testimonials-image-wrapper {
     width: 5.5rem;
     height: 5.5rem;
+}
+
+.o-contact-wrapper {
+    padding-top: 10rem;
 }

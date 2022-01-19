@@ -1,5 +1,19 @@
 @use "../settings" as *;
 
-.c-header-subheading {
-    font-size: clamp(1.125rem, 0.9167rem + 1.0417vw, 1.75rem);
+.c-header {
+    &-subheading {
+        font-size: clamp(1.125rem, 0.9167rem + 1.0417vw, 1.75rem);
+    }
+
+    &__contact-heading {
+        font-size: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+        font-weight: 500;
+    }
+
+    &__contact-link {
+        font-family: $fontDisplay;
+        font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+        font-weight: 700;
+        color: $colourGrey-400;
+    }
 }
