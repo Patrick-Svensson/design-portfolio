@@ -10,6 +10,10 @@
     }
 }
 
+.o-navbar--bg-reverse {
+    background: linear-gradient(180deg, $colourGrey-600 0%, $colourGrey-400);
+}
+
 .o-index {
     &-header-wrapper {
         max-width: 82.5rem;
@@ -140,6 +144,12 @@
     height: 5.5rem;
 }
 
-.o-contact-wrapper {
-    padding-top: 10rem;
+.o-contact {
+    &-page-wrapper {
+        background: linear-gradient(180deg, $colourGrey-600 0%, $colourGrey-400);
+    }
+
+    &-content-wrapper {
+        padding-top: 10rem;
+    }
 }
