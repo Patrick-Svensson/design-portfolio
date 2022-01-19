@@ -10,6 +10,10 @@ h1 {
     font-weight: 700;
     color: $colourGrey-500;
     font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
+    line-height: 2rem;
+    @include responsive(large) {
+        line-height: 3rem;
+    }
 }
 
 h2 {

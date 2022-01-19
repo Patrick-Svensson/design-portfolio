@@ -89,6 +89,12 @@ h1 {
   font-weight: 700;
   color: #222;
   font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
+  line-height: 2rem;
+}
+@media screen and (min-width: 62em) {
+  h1 {
+    line-height: 3rem;
+  }
 }
 
 h2 {
@@ -182,6 +188,7 @@ p {
 @media screen and (min-width: 62em) {
   .o-about-header-wrapper {
     padding-top: 16rem;
+    padding-left: 8rem;
   }
 }
 @media screen and (min-width: 75em) {
@@ -274,7 +281,7 @@ p {
   background: linear-gradient(180deg, #0a0a0a 0%, #434343);
 }
 .o-contact-content-wrapper {
-  padding-top: 10rem;
+  height: 85vh;
 }
 
 .c-navbar {
@@ -373,9 +380,10 @@ p {
 
 .c-header-subheading {
   font-size: clamp(1.125rem, 0.9167rem + 1.0417vw, 1.75rem);
+  line-height: 1.4rem;
 }
 .c-header__contact-heading {
-  font-size: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  font-size: clamp(1.2rem, 0.7667rem + 2.1667vw, 2.5rem);
   font-weight: 500;
   color: #f8f9fa;
 }
