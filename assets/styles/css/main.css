@@ -498,11 +498,11 @@ p {
 }
 .c-testimonials__quote::before {
   content: "❝";
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #bebebe;
   position: absolute;
   top: 0.5rem;
-  left: -1rem;
+  left: -0.8rem;
 }
 .c-testimonials__figcaption-link {
   font-size: 0.875rem;
