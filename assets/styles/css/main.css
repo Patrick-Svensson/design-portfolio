@@ -494,6 +494,15 @@ p {
   font-size: 0.875rem;
   color: #f8f9fa;
   line-height: 1rem;
+  position: relative;
+}
+.c-testimonials__quote::before {
+  content: "❝";
+  font-size: 1.5rem;
+  color: #bebebe;
+  position: absolute;
+  top: 0.5rem;
+  left: -1rem;
 }
 .c-testimonials__figcaption-link {
   font-size: 0.875rem;
