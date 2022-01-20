@@ -30,4 +30,10 @@
             height: 12rem;
         }
     }
+
+    &__contact {
+        @include responsive(small-land) {
+            display: none;
+        }
+    }
 }

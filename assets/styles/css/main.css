@@ -117,6 +117,7 @@ p {
   }
 }
 
+/* Navbar */
 .o-navbar {
   background: linear-gradient(180deg, #434343 0%, #0a0a0a);
 }
@@ -131,7 +132,13 @@ p {
 .o-navbar--bg-reverse {
   background: linear-gradient(180deg, #0a0a0a 0%, #434343);
 }
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .o-navbar--bg-reverse {
+    background: linear-gradient(180deg, #434343 0%, #0a0a0a);
+  }
+}
 
+/* Landing Page */
 .o-index-header-wrapper {
   max-width: 82.5rem;
   height: 100vh;
@@ -175,6 +182,9 @@ p {
 }
 
 /* About Me Page */
+.o-about {
+  /* Testimonials Section */
+}
 .o-about-header-wrapper {
   width: 100%;
   padding-top: 8rem;
@@ -277,8 +287,14 @@ p {
   height: 5.5rem;
 }
 
+/* Contact Me Page */
 .o-contact-page-wrapper {
   background: linear-gradient(180deg, #0a0a0a 0%, #434343);
+}
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .o-contact-page-wrapper {
+    background: linear-gradient(180deg, #434343 0%, #0a0a0a);
+  }
 }
 .o-contact-content-wrapper {
   height: 85vh;
@@ -372,7 +388,7 @@ p {
   }
 }
 .c-navbar__link:hover, .c-navbar__link:focus {
-  color: #bebebe;
+  color: #f0f0f0;
 }
 .c-navbar__link:active {
   color: #7ef4ae;
@@ -385,7 +401,7 @@ p {
 .c-header__contact-heading {
   font-size: clamp(1.2rem, 0.7667rem + 2.1667vw, 2.5rem);
   font-weight: 500;
-  color: #f8f9fa;
+  color: #f0f0f0;
 }
 .c-header__contact-link {
   font-family: "Brandon Grotesque", sans-serif;
@@ -458,6 +474,11 @@ p {
   .c-image__myself {
     width: 12rem;
     height: 12rem;
+  }
+}
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .c-image__contact {
+    display: none;
   }
 }
 
