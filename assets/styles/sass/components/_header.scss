@@ -1,9 +1,13 @@
 @use "../settings" as *;
+@use "../tools" as *;
 
 .c-header {
     &-subheading {
         font-size: clamp(1.125rem, 0.9167rem + 1.0417vw, 1.75rem);
         line-height: 1.4rem;
+        @include responsive(large) {
+            line-height: 2rem;
+        }
     }
 
     &__contact-heading {

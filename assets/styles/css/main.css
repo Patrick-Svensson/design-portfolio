@@ -287,6 +287,23 @@ p {
   height: 5.5rem;
 }
 
+/* UX/UI Page */
+.o-project-ux-header-wrapper {
+  min-width: 100vw;
+  height: 55rem;
+  position: relative;
+  background-image: url(../../images/wave-reverse.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+.o-project-ux-image-wrapper {
+  width: 45%;
+  position: absolute;
+  bottom: -2rem;
+  right: -4rem;
+}
+
 /* Contact Me Page */
 .o-contact-page-wrapper {
   background: linear-gradient(180deg, #0a0a0a 0%, #434343);
@@ -397,6 +414,11 @@ p {
 .c-header-subheading {
   font-size: clamp(1.125rem, 0.9167rem + 1.0417vw, 1.75rem);
   line-height: 1.4rem;
+}
+@media screen and (min-width: 62em) {
+  .c-header-subheading {
+    line-height: 2rem;
+  }
 }
 .c-header__contact-heading {
   font-size: clamp(1.2rem, 0.7667rem + 2.1667vw, 2.5rem);
