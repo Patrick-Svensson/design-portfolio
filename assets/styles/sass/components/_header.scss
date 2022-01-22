@@ -18,6 +18,7 @@
 
         @include responsive(large) {
             padding-top: 17rem;
+            padding-right: 10rem;
         }
 
         @include responsive(x-large) {

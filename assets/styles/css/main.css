@@ -437,6 +437,7 @@ p {
 @media screen and (min-width: 62em) {
   .c-header__project-heading {
     padding-top: 17rem;
+    padding-right: 10rem;
   }
 }
 @media screen and (min-width: 75em) {
