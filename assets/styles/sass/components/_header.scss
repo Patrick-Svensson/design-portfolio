@@ -23,6 +23,11 @@
         @include responsive(x-large) {
             padding: 0 8rem 8rem 0;
         }
+
+        @include responsive(small-land) {
+            width: 60%;
+            padding: 5rem 5rem 0 0;
+        }
     }
 
     &__contact-heading {

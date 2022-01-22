@@ -444,6 +444,12 @@ p {
     padding: 0 8rem 8rem 0;
   }
 }
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .c-header__project-heading {
+    width: 60%;
+    padding: 5rem 5rem 0 0;
+  }
+}
 .c-header__contact-heading {
   font-size: clamp(1.2rem, 0.7667rem + 2.1667vw, 2.5rem);
   font-weight: 500;
