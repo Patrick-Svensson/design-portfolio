@@ -467,7 +467,7 @@ p {
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
-.c-waves__index {
+.c-waves {
   min-width: 100%;
   margin-bottom: -0.7rem;
   /*Fix for safari gap*/
@@ -477,7 +477,7 @@ p {
   left: 0;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
-  .c-waves__index {
+  .c-waves {
     display: none;
   }
 }
