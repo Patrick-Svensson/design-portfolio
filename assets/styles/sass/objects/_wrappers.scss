@@ -158,20 +158,19 @@
 
 .o-project-ux {
     &-header-wrapper {
-        min-width: 100vw;
-        height: 55rem;
+        height: 110vh;
         position: relative;
-        background-image: url(../../images/wave-reverse.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center bottom;
     }
 
     &-image-wrapper {
-        width: 45%;
+        width: auto;
+        height: 50%;
         position: absolute;
-        bottom: -2rem;
-        right: -4rem;
+        bottom: 0;
+        right: 0;
+        @include responsive(medium) {
+            height: 90%;
+        }
     }
 }
 

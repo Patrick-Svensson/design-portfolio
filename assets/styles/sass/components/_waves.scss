@@ -3,14 +3,26 @@
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
 
-.c-index-waves {
-    min-width: 100%;
-    margin-bottom: -0.7rem; /*Fix for safari gap*/
-    height: 25vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    @include responsive(small-land) {
-        display: none;
+.c-waves {
+    &__index {
+        min-width: 100%;
+        margin-bottom: -0.7rem; /*Fix for safari gap*/
+        height: 25vh;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        @include responsive(small-land) {
+            display: none;
+        }
+    }
+
+    &__project-ux {
+        min-width: 100vw;
+        height: 100%;
+        background-image: url(../../images/wave-reverse.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom 2rem;
+        position: absolute;
     }
 }

@@ -10,6 +10,13 @@
         }
     }
 
+    &__project-heading {
+        padding-top: 8rem;
+        @include responsive(large) {
+            padding: 0 8rem 8rem 0;
+        }
+    }
+
     &__contact-heading {
         font-size: clamp(1.2rem, 0.7667rem + 2.1667vw, 2.5rem);
         font-weight: 500;

@@ -289,19 +289,20 @@ p {
 
 /* UX/UI Page */
 .o-project-ux-header-wrapper {
-  min-width: 100vw;
-  height: 55rem;
+  height: 110vh;
   position: relative;
-  background-image: url(../../images/wave-reverse.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center bottom;
 }
 .o-project-ux-image-wrapper {
-  width: 45%;
+  width: auto;
+  height: 50%;
   position: absolute;
-  bottom: -2rem;
-  right: -4rem;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (min-width: 48em) {
+  .o-project-ux-image-wrapper {
+    height: 90%;
+  }
 }
 
 /* Contact Me Page */
@@ -420,6 +421,14 @@ p {
     line-height: 2rem;
   }
 }
+.c-header__project-heading {
+  padding-top: 8rem;
+}
+@media screen and (min-width: 62em) {
+  .c-header__project-heading {
+    padding: 0 8rem 8rem 0;
+  }
+}
 .c-header__contact-heading {
   font-size: clamp(1.2rem, 0.7667rem + 2.1667vw, 2.5rem);
   font-weight: 500;
@@ -436,7 +445,7 @@ p {
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
-.c-index-waves {
+.c-waves__index {
   min-width: 100%;
   margin-bottom: -0.7rem;
   /*Fix for safari gap*/
@@ -446,9 +455,18 @@ p {
   left: 0;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
-  .c-index-waves {
+  .c-waves__index {
     display: none;
   }
+}
+.c-waves__project-ux {
+  min-width: 100vw;
+  height: 100%;
+  background-image: url(../../images/wave-reverse.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom 2rem;
+  position: absolute;
 }
 
 .c-contact-icon {
