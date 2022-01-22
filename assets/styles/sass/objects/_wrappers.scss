@@ -168,7 +168,11 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        @include responsive(medium) {
+        @include responsive(small) {
+            height: 60%;
+        }
+
+        @include responsive(x-large) {
             height: 90%;
         }
     }

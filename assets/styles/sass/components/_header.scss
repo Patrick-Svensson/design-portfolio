@@ -12,7 +12,15 @@
 
     &__project-heading {
         padding-top: 8rem;
+        @include responsive(small) {
+            padding-top: 12rem;
+        }
+
         @include responsive(large) {
+            padding-top: 17rem;
+        }
+
+        @include responsive(x-large) {
             padding: 0 8rem 8rem 0;
         }
     }
