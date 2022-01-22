@@ -510,6 +510,7 @@ p {
   transform: scale(1.2);
 }
 .c-contact-icon--reverse {
+  right: initial;
   left: 1rem;
 }
 
