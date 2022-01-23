@@ -288,16 +288,23 @@ p {
 }
 
 /* UX/UI Page */
-.o-project-ux-header-wrapper {
+.o-project-header-wrapper {
+  min-width: 100vw;
   height: 110vh;
   position: relative;
+}
+.o-project-ux-header-wrapper {
+  max-width: 90rem;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 .o-project-ux-image-wrapper {
   width: auto;
   height: 50%;
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: -4rem;
 }
 @media screen and (min-width: 36em) {
   .o-project-ux-image-wrapper {
@@ -307,6 +314,11 @@ p {
 @media screen and (min-width: 75em) {
   .o-project-ux-image-wrapper {
     height: 90%;
+  }
+}
+@media screen and (min-width: 87.5em) {
+  .o-project-ux-image-wrapper {
+    right: 0;
   }
 }
 
@@ -442,7 +454,7 @@ p {
 }
 @media screen and (min-width: 75em) {
   .c-header__project-heading {
-    padding: 0 8rem 8rem 0;
+    padding: 0 0 8rem 5rem;
   }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
