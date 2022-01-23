@@ -164,10 +164,13 @@
     }
 
     &-ux-header-wrapper {
-        max-width: 90rem;
+        max-width: 112rem;
         height: 100%;
         position: relative;
         overflow: hidden;
+        @include responsive(xx-large) {
+            overflow: visible;
+        }
     }
 
     &-ux-image-wrapper {
@@ -182,10 +185,6 @@
 
         @include responsive(x-large) {
             height: 90%;
-        }
-
-        @include responsive(xx-large) {
-            right: 0;
         }
     }
 }

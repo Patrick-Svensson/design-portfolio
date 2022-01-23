@@ -6,8 +6,8 @@
 576 - 768px = small
 768 - 992px = medium
 992 - 1200px = large
-1200 - 1400px = x-large
-1400 - = xx-large
+1200 - 1800px = x-large
+1800 - = xx-large
 */
 /* Remove default margin */
 body,
@@ -294,10 +294,15 @@ p {
   position: relative;
 }
 .o-project-ux-header-wrapper {
-  max-width: 90rem;
+  max-width: 112rem;
   height: 100%;
   position: relative;
   overflow: hidden;
+}
+@media screen and (min-width: 112.5em) {
+  .o-project-ux-header-wrapper {
+    overflow: visible;
+  }
 }
 .o-project-ux-image-wrapper {
   width: auto;
@@ -314,11 +319,6 @@ p {
 @media screen and (min-width: 75em) {
   .o-project-ux-image-wrapper {
     height: 90%;
-  }
-}
-@media screen and (min-width: 87.5em) {
-  .o-project-ux-image-wrapper {
-    right: 0;
   }
 }
 
@@ -455,6 +455,11 @@ p {
 @media screen and (min-width: 75em) {
   .c-header__project-heading {
     padding: 0 0 8rem 5rem;
+  }
+}
+@media screen and (min-width: 112.5em) {
+  .c-header__project-heading {
+    padding-left: 0;
   }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {

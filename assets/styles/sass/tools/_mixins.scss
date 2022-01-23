@@ -15,8 +15,8 @@
 576 - 768px = small
 768 - 992px = medium
 992 - 1200px = large
-1200 - 1400px = x-large
-1400 - = xx-large
+1200 - 1800px = x-large
+1800 - = xx-large
 */
 
 @mixin responsive($breakpoint) {
@@ -56,8 +56,8 @@
     }
 
     @if $breakpoint == xx-large {
-        @media screen and (min-width: 87.5em) {
-            // 1400px
+        @media screen and (min-width: 112.5em) {
+            // 1800px
             @content;
         }
     }
