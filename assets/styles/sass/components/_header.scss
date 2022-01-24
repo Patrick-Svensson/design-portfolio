@@ -8,6 +8,13 @@
         @include responsive(large) {
             line-height: 2rem;
         }
+
+        @include responsive(xx-large) {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
     }
 
     &__project-heading {

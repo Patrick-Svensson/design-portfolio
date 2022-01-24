@@ -2,7 +2,7 @@
 @use "../tools" as *;
 
 .c-navbar {
-    max-width: 90rem;
+    max-width: 112.5rem;
     padding-right: 0;
     @include responsive(medium) {
         padding-right: 3rem;

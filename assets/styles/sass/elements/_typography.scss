@@ -10,9 +10,14 @@ h1 {
     font-weight: 700;
     color: $colourGrey-500;
     font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
-    line-height: 2rem;
+    line-height: 2.5rem;
     @include responsive(large) {
         line-height: 3rem;
+    }
+
+    @include responsive(xx-large) {
+        font-size: 4.5rem;
+        line-height: 5rem;
     }
 }
 
@@ -27,9 +32,14 @@ p {
     color: $colourGrey-600;
     font-weight: 400;
     line-height: 1.25rem;
-    font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
     padding-top: 1rem;
+    font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
     @include responsive(medium) {
         line-height: 1.5rem;
+    }
+
+    @include responsive(xx-large) {
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 }

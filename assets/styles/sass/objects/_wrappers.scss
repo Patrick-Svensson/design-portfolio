@@ -23,17 +23,19 @@
 
 .o-index {
     &-header-wrapper {
-        max-width: 82.5rem;
+        max-width: 112.5rem;
         height: 100vh;
         position: relative;
     }
 
     &-text-wrapper {
         height: 55%;
+        margin: 0;
 
         @include responsive(small-land) {
             width: 80%;
             height: 75%;
+            margin-left: 3rem;
         }
     }
 
@@ -75,7 +77,6 @@
 
         @include responsive(large) {
             padding-top: 16rem;
-            padding-left: 8rem;
         }
 
         @include responsive(x-large) {
@@ -84,7 +85,7 @@
 
         @include responsive(small-land) {
             margin-top: 0;
-            padding-left: 3rem;
+            padding-left: 5rem;
         }
     }
 
@@ -106,6 +107,7 @@
         @include responsive(small-land) {
             width: 80%;
             margin-top: 0;
+            margin-left: 5rem;
         }
     }
 
@@ -146,6 +148,10 @@
 
     @include responsive(large) {
         padding-top: 8rem;
+    }
+
+    @include responsive(small-land) {
+        margin-left: 5rem;
     }
 }
 

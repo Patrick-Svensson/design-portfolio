@@ -89,11 +89,17 @@ h1 {
   font-weight: 700;
   color: #222;
   font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 @media screen and (min-width: 62em) {
   h1 {
     line-height: 3rem;
+  }
+}
+@media screen and (min-width: 112.5em) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 5rem;
   }
 }
 
@@ -108,12 +114,18 @@ p {
   color: #0a0a0a;
   font-weight: 400;
   line-height: 1.25rem;
-  font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
   padding-top: 1rem;
+  font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
 }
 @media screen and (min-width: 48em) {
   p {
     line-height: 1.5rem;
+  }
+}
+@media screen and (min-width: 112.5em) {
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -140,17 +152,19 @@ p {
 
 /* Landing Page */
 .o-index-header-wrapper {
-  max-width: 82.5rem;
+  max-width: 112.5rem;
   height: 100vh;
   position: relative;
 }
 .o-index-text-wrapper {
   height: 55%;
+  margin: 0;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .o-index-text-wrapper {
     width: 80%;
     height: 75%;
+    margin-left: 3rem;
   }
 }
 .o-index-bg {
@@ -198,7 +212,6 @@ p {
 @media screen and (min-width: 62em) {
   .o-about-header-wrapper {
     padding-top: 16rem;
-    padding-left: 8rem;
   }
 }
 @media screen and (min-width: 75em) {
@@ -209,7 +222,7 @@ p {
 @media (min-width: 25em) and (max-height: 42.9em) {
   .o-about-header-wrapper {
     margin-top: 0;
-    padding-left: 3rem;
+    padding-left: 5rem;
   }
 }
 .o-about-main-wrapper {
@@ -235,6 +248,7 @@ p {
   .o-about-main-wrapper {
     width: 80%;
     margin-top: 0;
+    margin-left: 5rem;
   }
 }
 .o-about-aside-wrapper {
@@ -279,6 +293,11 @@ p {
 @media screen and (min-width: 62em) {
   .o-testimonials-wrapper {
     padding-top: 8rem;
+  }
+}
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .o-testimonials-wrapper {
+    margin-left: 5rem;
   }
 }
 
@@ -336,7 +355,7 @@ p {
 }
 
 .c-navbar {
-  max-width: 90rem;
+  max-width: 112.5rem;
   padding-right: 0;
 }
 @media screen and (min-width: 48em) {
@@ -436,6 +455,14 @@ p {
 @media screen and (min-width: 62em) {
   .c-header-subheading {
     line-height: 2rem;
+  }
+}
+@media screen and (min-width: 112.5em) {
+  .c-header-subheading {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 .c-header__project-heading {
