@@ -169,7 +169,7 @@
         position: relative;
     }
 
-    &-ux-header-wrapper {
+    &-content-wrapper {
         max-width: 112rem;
         height: 100%;
         position: relative;
@@ -179,7 +179,7 @@
         }
     }
 
-    &-ux-image-wrapper {
+    &__ux-image-wrapper {
         width: auto;
         height: 40%;
         position: absolute;
@@ -192,6 +192,31 @@
         @include responsive(x-large) {
             height: 90%;
             right: -4rem;
+        }
+    }
+
+    &__scss-image-wrapper {
+        width: 85%;
+        height: auto;
+        position: absolute;
+        bottom: 5rem;
+        right: 0;
+        @include responsive(medium) {
+            width: auto;
+            height: 40%;
+        }
+
+        @include responsive(x-large) {
+            width: 45%;
+            height: auto;
+            right: 8rem;
+        }
+
+        @include responsive(small-land) {
+            width: auto;
+            height: 50%;
+            bottom: 2rem;
+            right: 2rem;
         }
     }
 }

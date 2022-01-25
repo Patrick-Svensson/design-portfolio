@@ -21,13 +21,29 @@
             padding-top: 12rem;
         }
 
+        &-scss {
+            @include responsive(medium) {
+                padding-top: 20rem;
+            }
+
+            @include responsive(small-land) {
+                margin-right: 5rem;
+            }
+        }
+
         @include responsive(large) {
             padding-top: 17rem;
             padding-right: 10rem;
         }
 
         @include responsive(x-large) {
-            padding: 0 0 8rem 5rem;
+            padding: 0 0 10rem 0;
+        }
+
+        &-ux {
+            @include responsive(medium) {
+                padding-left: 8rem;
+            }
         }
 
         @include responsive(xx-large) {

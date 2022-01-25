@@ -17,7 +17,7 @@
     &__project-header {
         min-width: 100vw;
         height: 100%;
-        background-image: url(../../images/wave-reverse.svg);
+        background-image: url(../../images/wave-project-header.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center bottom 2rem;
@@ -25,7 +25,14 @@
 
         &--reverse {
             @include transform(rotate(180deg));
-            background-position: center top 2rem;
+            background-position: center top 8rem;
+            @include responsive(x-large) {
+                background-position: center top;
+            }
+
+            @include responsive(small-land) {
+                background-position: center top;
+            }
         }
     }
 }
