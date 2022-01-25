@@ -129,6 +129,11 @@ p {
   }
 }
 
+figcaption {
+  font-family: "Minion Pro", sans-serif;
+  font-size: clamp(0.625rem, 0.5833rem + 0.2083vw, 0.75rem);
+}
+
 /* Navbar */
 .o-navbar {
   background: linear-gradient(180deg, #434343 0%, #0a0a0a);
@@ -306,7 +311,7 @@ p {
   height: 5.5rem;
 }
 
-/* UX/UI Page */
+/* Project Pages*/
 .o-project-header-wrapper {
   min-width: 100vw;
   height: 100vh;
@@ -323,7 +328,7 @@ p {
     overflow: visible;
   }
 }
-.o-project__ux-image-wrapper {
+.o-project__ux-header-image-wrapper {
   width: auto;
   height: 40%;
   position: absolute;
@@ -331,17 +336,17 @@ p {
   right: 0;
 }
 @media screen and (min-width: 36em) {
-  .o-project__ux-image-wrapper {
+  .o-project__ux-header-image-wrapper {
     height: 55%;
   }
 }
 @media screen and (min-width: 75em) {
-  .o-project__ux-image-wrapper {
+  .o-project__ux-header-image-wrapper {
     height: 90%;
     right: -4rem;
   }
 }
-.o-project__scss-image-wrapper {
+.o-project__scss-header-image-wrapper {
   width: 85%;
   height: auto;
   position: absolute;
@@ -349,24 +354,38 @@ p {
   right: 0;
 }
 @media screen and (min-width: 48em) {
-  .o-project__scss-image-wrapper {
+  .o-project__scss-header-image-wrapper {
     width: auto;
     height: 40%;
   }
 }
 @media screen and (min-width: 75em) {
-  .o-project__scss-image-wrapper {
+  .o-project__scss-header-image-wrapper {
     width: 45%;
     height: auto;
     right: 8rem;
   }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
-  .o-project__scss-image-wrapper {
+  .o-project__scss-header-image-wrapper {
     width: auto;
     height: 50%;
     bottom: 2rem;
     right: 2rem;
+  }
+}
+@media screen and (min-width: 48em) {
+  .o-project-section-wrapper {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+@media screen and (min-width: 75em) {
+  .o-project-section-wrapper {
+    max-width: 112rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 5.5rem;
   }
 }
 
@@ -521,11 +540,6 @@ p {
     padding: 0 0 10rem 0;
   }
 }
-@media screen and (min-width: 48em) {
-  .c-header__project-heading-ux {
-    padding-left: 8rem;
-  }
-}
 @media screen and (min-width: 112.5em) {
   .c-header__project-heading {
     padding-left: 0;
@@ -534,7 +548,7 @@ p {
 @media (min-width: 25em) and (max-height: 42.9em) {
   .c-header__project-heading {
     width: 60%;
-    padding: 5rem 5rem 0 0;
+    padding: 3rem 5rem 0 0;
   }
 }
 .c-header__contact-heading {
@@ -625,9 +639,12 @@ p {
 .c-image--bw {
   filter: grayscale(100%);
 }
-.c-image--circle {
+.c-image__circle {
   border-radius: 50%;
   object-fit: cover;
+}
+.c-image__soft-corners {
+  border-radius: 0.5rem;
 }
 .c-image__myself {
   width: 10rem;

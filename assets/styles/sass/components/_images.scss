@@ -8,9 +8,13 @@
         filter: grayscale(100%);
     }
 
-    &--circle {
+    &__circle {
         border-radius: 50%;
         object-fit: cover;
+    }
+
+    &__soft-corners {
+        border-radius: 0.5rem;
     }
 
     &__myself {

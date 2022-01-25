@@ -43,3 +43,8 @@ p {
         line-height: 2rem;
     }
 }
+
+figcaption {
+    font-family: $fontMain;
+    font-size: clamp(0.625rem, 0.5833rem + 0.2083vw, 0.75rem);
+}

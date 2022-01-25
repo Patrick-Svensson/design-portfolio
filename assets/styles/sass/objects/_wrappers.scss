@@ -160,7 +160,7 @@
     height: 5.5rem;
 }
 
-/* UX/UI Page */
+/* Project Pages*/
 
 .o-project {
     &-header-wrapper {
@@ -179,7 +179,7 @@
         }
     }
 
-    &__ux-image-wrapper {
+    &__ux-header-image-wrapper {
         width: auto;
         height: 40%;
         position: absolute;
@@ -195,7 +195,7 @@
         }
     }
 
-    &__scss-image-wrapper {
+    &__scss-header-image-wrapper {
         width: 85%;
         height: auto;
         position: absolute;
@@ -217,6 +217,20 @@
             height: 50%;
             bottom: 2rem;
             right: 2rem;
+        }
+    }
+
+    &-section-wrapper {
+        @include responsive(medium) {
+            padding-left: 6rem;
+            padding-right: 6rem;
+        }
+
+        @include responsive(x-large) {
+            max-width: 112rem;
+            padding-left: 10rem;
+            padding-right: 10rem;
+            margin-top: 5.5rem;
         }
     }
 }

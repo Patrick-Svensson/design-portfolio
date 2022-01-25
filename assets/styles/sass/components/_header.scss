@@ -40,19 +40,13 @@
             padding: 0 0 10rem 0;
         }
 
-        &-ux {
-            @include responsive(medium) {
-                padding-left: 8rem;
-            }
-        }
-
         @include responsive(xx-large) {
             padding-left: 0;
         }
 
         @include responsive(small-land) {
             width: 60%;
-            padding: 5rem 5rem 0 0;
+            padding: 3rem 5rem 0 0;
         }
     }
 
