@@ -165,7 +165,7 @@
 .o-project {
     &-header-wrapper {
         min-width: 100vw;
-        height: 110vh;
+        height: 100vh;
         position: relative;
     }
 
@@ -181,16 +181,17 @@
 
     &-ux-image-wrapper {
         width: auto;
-        height: 50%;
+        height: 40%;
         position: absolute;
         bottom: 0;
-        right: -4rem;
+        right: 0;
         @include responsive(small) {
-            height: 60%;
+            height: 55%;
         }
 
         @include responsive(x-large) {
             height: 90%;
+            right: -4rem;
         }
     }
 }
