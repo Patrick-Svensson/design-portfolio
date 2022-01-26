@@ -2,7 +2,8 @@
 @use "../tools" as *;
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: $fontDisplay;
 }
 
@@ -25,6 +26,10 @@ h2 {
     font-weight: 500;
     color: $colourGrey-600;
     font-size: clamp(1.5rem, 1.1667rem + 1.6667vw, 2.5rem);
+}
+
+h3 {
+    font-size: clamp(1.125rem, 1rem + 0.625vw, 1.5rem);
 }
 
 p {

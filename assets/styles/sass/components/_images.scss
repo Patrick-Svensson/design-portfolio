@@ -3,6 +3,7 @@
 .c-image {
     min-width: 100%;
     max-height: 100%;
+    object-fit: cover;
 
     &--bw {
         filter: grayscale(100%);
@@ -10,7 +11,6 @@
 
     &__circle {
         border-radius: 50%;
-        object-fit: cover;
     }
 
     &__soft-corners {
@@ -20,6 +20,7 @@
     &__myself {
         width: 10rem;
         height: 10rem;
+        object-fit: cover;
         float: left;
         shape-outside: circle(50%);
         margin: 0 1rem 1rem 0;
@@ -32,6 +33,21 @@
         @include responsive(small-land) {
             width: 12rem;
             height: 12rem;
+        }
+    }
+
+    &__themes {
+        position: relative;
+        @include responsive(small-land) {
+            width: 50%;
+        }
+    }
+
+    &__themes-heading {
+        position: absolute;
+        top: -1rem;
+        &--bottom {
+            top: 50%;
         }
     }
 

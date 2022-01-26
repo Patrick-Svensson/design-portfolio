@@ -223,6 +223,8 @@
     &-image-wrapper {
         @include responsive(small-land) {
             width: 30%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 
@@ -236,7 +238,7 @@
             max-width: 112rem;
             padding-left: 10rem;
             padding-right: 10rem;
-            margin-top: 5.5rem;
+            margin-top: 8rem;
         }
 
         @include responsive(small-land) {
