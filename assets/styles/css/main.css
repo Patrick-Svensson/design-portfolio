@@ -379,6 +379,10 @@ figcaption {
     right: 2rem;
   }
 }
+.o-project-image-wrapper {
+  width: 100%;
+  height: 100%;
+}
 @media (min-width: 25em) and (max-height: 42.9em) {
   .o-project-image-wrapper {
     width: 30%;
@@ -386,10 +390,26 @@ figcaption {
     margin-right: auto;
   }
 }
+.o-project__themes-image-wrapper {
+  position: relative;
+}
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .o-project__themes-image-wrapper {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 36em) {
+  .o-project-section-wrapper {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 4rem;
+  }
+}
 @media screen and (min-width: 48em) {
   .o-project-section-wrapper {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-top: 8rem;
   }
 }
 @media screen and (min-width: 75em) {
@@ -397,7 +417,6 @@ figcaption {
     max-width: 112rem;
     padding-left: 10rem;
     padding-right: 10rem;
-    margin-top: 8rem;
   }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
@@ -685,12 +704,12 @@ figcaption {
     height: 12rem;
   }
 }
-.c-image__themes {
-  position: relative;
+.c-image__world-of-whisky {
+  height: 30vh;
 }
-@media (min-width: 25em) and (max-height: 42.9em) {
-  .c-image__themes {
-    width: 50%;
+@media screen and (min-width: 75em) {
+  .c-image__world-of-whisky {
+    height: 50vh;
   }
 }
 .c-image__themes-heading {

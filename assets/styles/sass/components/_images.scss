@@ -36,10 +36,10 @@
         }
     }
 
-    &__themes {
-        position: relative;
-        @include responsive(small-land) {
-            width: 50%;
+    &__world-of-whisky {
+        height: 30vh;
+        @include responsive(x-large) {
+            height: 50vh;
         }
     }
 

@@ -221,6 +221,8 @@
     }
 
     &-image-wrapper {
+        width: 100%;
+        height: 100%;
         @include responsive(small-land) {
             width: 30%;
             margin-left: auto;
@@ -228,17 +230,30 @@
         }
     }
 
+    &__themes-image-wrapper {
+        position: relative;
+        @include responsive(small-land) {
+            width: 50%;
+        }
+    }
+
     &-section-wrapper {
+        @include responsive(small) {
+            padding-left: 4rem;
+            padding-right: 4rem;
+            margin-top: 4rem;
+        }
+
         @include responsive(medium) {
-            padding-left: 6rem;
-            padding-right: 6rem;
+            padding-left: 8rem;
+            padding-right: 8rem;
+            margin-top: 8rem;
         }
 
         @include responsive(x-large) {
             max-width: 112rem;
             padding-left: 10rem;
             padding-right: 10rem;
-            margin-top: 8rem;
         }
 
         @include responsive(small-land) {
