@@ -220,20 +220,18 @@
         }
     }
 
-    &-image-wrapper {
-        width: 100%;
-        height: 100%;
-        @include responsive(small-land) {
-            width: 30%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-
     &__themes-image-wrapper {
         position: relative;
         @include responsive(small-land) {
             width: 50%;
+        }
+    }
+
+    &__concepts-sketching-image-wrapper {
+        position: relative;
+        margin-bottom: 25%;
+        @include responsive(x-large) {
+            margin-bottom: 0;
         }
     }
 

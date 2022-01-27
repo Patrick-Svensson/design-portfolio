@@ -51,6 +51,25 @@
         }
     }
 
+    &__crazy8 {
+        width: 50%;
+        @include responsive(x-large) {
+            width: 100%;
+        }
+    }
+
+    &__priority {
+        width: 60%;
+        position: absolute;
+        bottom: -60%;
+        right: 0.5rem;
+        z-index: -100;
+        @include responsive(x-large) {
+            width: 100%;
+            position: static;
+        }
+    }
+
     &__contact {
         @include responsive(small-land) {
             display: none;
