@@ -387,6 +387,9 @@ ol > li {
     right: 2rem;
   }
 }
+.o-project__world-of-whisky-image-wrapper {
+  height: 100%;
+}
 .o-project__themes-image-wrapper {
   position: relative;
 }

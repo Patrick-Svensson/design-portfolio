@@ -220,6 +220,10 @@
         }
     }
 
+    &__world-of-whisky-image-wrapper {
+        height: 100%;
+    }
+
     &__themes-image-wrapper {
         position: relative;
         @include responsive(small-land) {
