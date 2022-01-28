@@ -75,4 +75,19 @@
             display: none;
         }
     }
+
+    &__footer {
+        position: absolute;
+        width: 30%;
+        bottom: 5rem;
+        left: -2rem;
+        @include transform(rotate(30deg));
+        @include responsive(medium) {
+            width: 20%;
+        }
+
+        @include responsive(small-land) {
+            display: none;
+        }
+    }
 }
