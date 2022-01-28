@@ -792,7 +792,12 @@ button {
 }
 @media screen and (min-width: 48em) {
   .c-image__footer {
-    width: 20%;
+    width: 12rem;
+  }
+}
+@media screen and (min-width: 62em) {
+  .c-image__footer {
+    width: 18rem;
   }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
