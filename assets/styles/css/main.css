@@ -147,6 +147,28 @@ ol > li {
   font-weight: 600;
 }
 
+button {
+  background: linear-gradient(180deg, #434343 0%, #0a0a0a);
+  color: #7ef4ae;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  padding: 0.6em 2em 0.5em 2em;
+  font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
+}
+@media screen and (min-width: 48em) {
+  button {
+    line-height: 1.5rem;
+  }
+}
+@media screen and (min-width: 112.5em) {
+  button {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
 /* Navbar */
 .o-navbar {
   background: linear-gradient(180deg, #434343 0%, #0a0a0a);
@@ -214,9 +236,6 @@ ol > li {
 }
 
 /* About Me Page */
-.o-about {
-  /* Testimonials Section */
-}
 .o-about-header-wrapper {
   width: 100%;
   padding-top: 8rem;
@@ -267,34 +286,6 @@ ol > li {
     width: 80%;
     margin-top: 0;
     margin-left: 5rem;
-  }
-}
-.o-about-aside-wrapper {
-  min-width: 100vw;
-  position: relative;
-  background-image: url(../../images/wave-left.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-}
-@media screen and (min-width: 36em) {
-  .o-about-aside-wrapper {
-    background-image: url(../../images/wave-sm-left.svg);
-  }
-}
-@media screen and (min-width: 48em) {
-  .o-about-aside-wrapper {
-    background-image: url(../../images/wave-md-left.svg);
-  }
-}
-@media screen and (min-width: 62em) {
-  .o-about-aside-wrapper {
-    background-image: url(../../images/wave-lg-left.svg);
-  }
-}
-@media screen and (min-width: 75em) {
-  .o-about-aside-wrapper {
-    background-size: cover;
   }
 }
 
@@ -446,6 +437,39 @@ ol > li {
 }
 .o-contact-content-wrapper {
   height: 85vh;
+}
+
+/* Wave */
+.o-wave-wrapper {
+  min-width: 100vw;
+  position: relative;
+  background-image: url(../../images/wave-left.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media screen and (min-width: 36em) {
+  .o-wave-wrapper {
+    background-image: url(../../images/wave-sm-left.svg);
+  }
+}
+@media screen and (min-width: 48em) {
+  .o-wave-wrapper {
+    background-image: url(../../images/wave-md-left.svg);
+  }
+}
+@media screen and (min-width: 62em) {
+  .o-wave-wrapper {
+    background-image: url(../../images/wave-lg-left.svg);
+  }
+}
+@media screen and (min-width: 75em) {
+  .o-wave-wrapper {
+    background-size: cover;
+  }
+}
+.o-wave-wrapper__footer {
+  height: 25vh;
 }
 
 .c-navbar {
