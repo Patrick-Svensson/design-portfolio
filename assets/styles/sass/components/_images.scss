@@ -81,6 +81,7 @@
         width: 30%;
         bottom: 5rem;
         left: -2rem;
+        z-index: 100;
         @include transform(rotate(30deg));
         @include responsive(medium) {
             width: 20%;
