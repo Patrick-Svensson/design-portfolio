@@ -220,15 +220,18 @@
         }
     }
 
+    &__image-wrapper {
+        @include responsive(small-land) {
+            width: 50%;
+        }
+    }
+
     &__world-of-whisky-image-wrapper {
         height: 100%;
     }
 
     &__themes-image-wrapper {
         position: relative;
-        @include responsive(small-land) {
-            width: 50%;
-        }
     }
 
     &__concepts-sketching-image-wrapper {
@@ -249,7 +252,7 @@
         @include responsive(medium) {
             padding-left: 8rem;
             padding-right: 8rem;
-            margin-top: 8rem;
+            margin-top: 6rem;
         }
 
         @include responsive(x-large) {
