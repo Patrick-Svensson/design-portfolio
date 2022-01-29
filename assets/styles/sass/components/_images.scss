@@ -78,9 +78,16 @@
     }
 
     &__bhromaon {
-        border-top: 4px solid #fff;
         border-left: 4px solid #fff;
         border-right: 4px solid #fff;
+
+        &--border-top {
+            border-top: 4px solid #fff;
+        }
+
+        &--border-bottom {
+            border-bottom: 4px solid #fff;
+        }
     }
 
     &__footer {

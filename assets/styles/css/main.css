@@ -784,9 +784,14 @@ button {
   }
 }
 .c-image__bhromaon {
-  border-top: 4px solid #fff;
   border-left: 4px solid #fff;
   border-right: 4px solid #fff;
+}
+.c-image__bhromaon--border-top {
+  border-top: 4px solid #fff;
+}
+.c-image__bhromaon--border-bottom {
+  border-bottom: 4px solid #fff;
 }
 .c-image__footer {
   position: absolute;

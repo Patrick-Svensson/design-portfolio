@@ -138,7 +138,7 @@
                         <figure>
                             <div class="o-project__bhromaon-image-wrapper">
                                 <img
-                                    class="c-image__bhromaon"
+                                    class="c-image__bhromaon c-image__bhromaon--border-top"
                                     src="../images/bhromaon-header.jpg"
                                     alt="A person standing at the edge of a boulder on the mountain side."
                                 />
@@ -146,7 +146,7 @@
                             <figcaption class="pt-2">Wireframe of the Landing section & Navigation</figcaption>
                         </figure>
                     </div>
-                    <div class="col-12 d-xl-none pt-5">
+                    <div class="col-12 d-xl-none pt-4">
                         <p>
                             At the time, time was short, which made me choose a navigation component from Bootstrap. It was a
                             quick and simple solution to implement a collapsable navbar without writing JavaScript. For good user
@@ -175,11 +175,63 @@
                                 <img
                                     class="c-image__bhromaon"
                                     src="../images/bhromaon-top-section.jpg"
-                                    alt="Two small pictures presenting travel sites on a dark brown, dim background of a clouded sky and grand old buildings"
+                                    alt="A section with a dummy text and a heading next to two small pictures of exotic travel sites on top of a section with I
+                                    three icons and headings that explain how the website works."
                                 />
                             </div>
                             <figcaption class="pt-2">Wireframe of the Why Choose Us & How It Works section</figcaption>
                         </figure>
+                    </div>
+                    <div class="col-12 d-xl-none pt-4">
+                        <p>
+                            Since the bottom section lacks a heading, I implemented a hidden h2 to improve the accessibility and
+                            SEO.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid o-project-section-wrapper py-5">
+                <div class="row d-xl-flex justify-content-xl-around">
+                    <div class="col-12 col-xl-5 pb-5">
+                        <h2>Colour Conundrum</h2>
+                        <p>
+                            A closer look at the buttons revealed a split background colour of two different shades of blue.
+                            Making a clip-path to create the shape of the colour split was pretty easy. However, I had problems
+                            figuring out how to make the button’s shadow hover effect render around the entire button instead of
+                            just around the clip-path part.
+                        </p>
+                        <p class="d-none d-xl-block">
+                            My first solution was to place the clip-path inside a separate button tag and then render it on top of
+                            the other button. That made the hover effect work but made the button awfully confusing for people
+                            that navigate with keyboard and screen readers.
+                        </p>
+                        <p class="d-none d-xl-block">
+                            As the Occam's Razor states: “The simplest solution is almost always the best”. Placing the two shades
+                            of blue in separate span tags inside one button tag did the trick.
+                        </p>
+                    </div>
+                    <div class="col-12 col-xl-5">
+                        <figure>
+                            <div class="o-project__bhromaon-image-wrapper">
+                                <img
+                                    class="c-image__bhromaon"
+                                    src="../images/bhromaon-middle-section.jpg"
+                                    alt="Two sections with images of travel sites."
+                                />
+                            </div>
+                            <figcaption class="pt-2">Wireframe of the Spain section</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 d-xl-none pt-4">
+                        <p>
+                            My first solution was to place the clip-path inside a separate button tag and then render it on top of
+                            the other button. That made the hover effect work but made the button awfully confusing for people
+                            that navigate with keyboard and screen readers.
+                        </p>
+                        <p>
+                            As the Occam's Razor states: “The simplest solution is almost always the best”. Placing the two shades
+                            of blue in separate span tags inside one button tag did the trick.
+                        </p>
                     </div>
                 </div>
             </section>
