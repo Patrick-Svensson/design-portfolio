@@ -398,6 +398,11 @@ button {
     margin-bottom: 0;
   }
 }
+.o-project__bhromaon-image-wrapper {
+  background-color: #bebebe;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
 @media screen and (min-width: 36em) {
   .o-project-section-wrapper {
     padding-left: 4rem;

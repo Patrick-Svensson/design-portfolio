@@ -216,6 +216,12 @@
         }
     }
 
+    &__bhromaon-image-wrapper {
+        background-color: $colourGrey-300;
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+
     &-section-wrapper {
         @include responsive(small) {
             padding-left: 4rem;
