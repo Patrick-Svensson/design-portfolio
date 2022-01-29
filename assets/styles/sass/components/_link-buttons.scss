@@ -1,7 +1,7 @@
 @use "../settings" as *;
 @use "../tools" as *;
 
-button {
+.c-project-button {
     background: linear-gradient(180deg, $colourGrey-400 0%, $colourGrey-600);
     color: $colourAccent-100;
     font-family: $fontDisplay;
@@ -10,6 +10,7 @@ button {
     border-radius: 0.25rem;
     padding: 0.8em 2em 0.7em 2em;
     font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
     @include responsive(medium) {
         line-height: 1.5rem;
     }
@@ -17,5 +18,30 @@ button {
     @include responsive(xx-large) {
         font-size: 1.5rem;
         line-height: 2rem;
+    }
+
+    &:hover,
+    &:focus {
+        color: $colourAccent-200;
+    }
+}
+
+.c-contact-icon {
+    position: fixed;
+    bottom: 5rem;
+    right: 1rem;
+    transition: 500ms linear;
+    @include responsive(small-land) {
+        display: none;
+    }
+
+    &:hover,
+    &:focus {
+        @include transform(scale(1.2));
+    }
+
+    &--reverse {
+        right: initial;
+        left: 1rem;
     }
 }

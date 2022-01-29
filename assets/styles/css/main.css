@@ -147,28 +147,6 @@ ol > li {
   font-weight: 600;
 }
 
-button {
-  background: linear-gradient(180deg, #434343 0%, #0a0a0a);
-  color: #7ef4ae;
-  font-family: "Brandon Grotesque", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 0.25rem;
-  padding: 0.8em 2em 0.7em 2em;
-  font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
-}
-@media screen and (min-width: 48em) {
-  button {
-    line-height: 1.5rem;
-  }
-}
-@media screen and (min-width: 112.5em) {
-  button {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-}
-
 /* Navbar */
 .o-navbar {
   background: linear-gradient(180deg, #434343 0%, #0a0a0a);
@@ -428,6 +406,7 @@ button {
   .o-project-section-wrapper {
     padding-left: 5rem;
     padding-right: 1rem;
+    margin-top: 2rem;
   }
 }
 
@@ -684,29 +663,6 @@ button {
   }
 }
 
-.c-contact-icon {
-  position: fixed;
-  bottom: 5rem;
-  right: 1rem;
-  transition: 500ms linear;
-}
-@media (min-width: 25em) and (max-height: 42.9em) {
-  .c-contact-icon {
-    display: none;
-  }
-}
-.c-contact-icon:hover, .c-contact-icon:focus {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-}
-.c-contact-icon--reverse {
-  right: initial;
-  left: 1rem;
-}
-
 .c-image {
   min-width: 100%;
   max-height: 100%;
@@ -850,6 +806,55 @@ button {
 .c-testimonials__figcaption-cite {
   font-size: 0.75rem;
   color: #bebebe;
+}
+
+.c-project-button {
+  background: linear-gradient(180deg, #434343 0%, #0a0a0a);
+  color: #7ef4ae;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  padding: 0.8em 2em 0.7em 2em;
+  font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+@media screen and (min-width: 48em) {
+  .c-project-button {
+    line-height: 1.5rem;
+  }
+}
+@media screen and (min-width: 112.5em) {
+  .c-project-button {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+.c-project-button:hover, .c-project-button:focus {
+  color: #50d185;
+}
+
+.c-contact-icon {
+  position: fixed;
+  bottom: 5rem;
+  right: 1rem;
+  transition: 500ms linear;
+}
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .c-contact-icon {
+    display: none;
+  }
+}
+.c-contact-icon:hover, .c-contact-icon:focus {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.c-contact-icon--reverse {
+  right: initial;
+  left: 1rem;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
