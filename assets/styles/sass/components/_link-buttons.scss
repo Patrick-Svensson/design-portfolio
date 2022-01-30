@@ -22,6 +22,7 @@
 
     &:hover,
     &:focus {
+        background-color: $colourGrey-600;
         color: $colourAccent-200;
     }
 }
