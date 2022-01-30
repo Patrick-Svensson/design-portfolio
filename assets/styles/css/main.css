@@ -409,6 +409,24 @@ ol > li {
     margin-top: 2rem;
   }
 }
+.o-project-section-wrapper--bottom {
+  margin-bottom: 8rem;
+}
+@media screen and (min-width: 36em) {
+  .o-project-section-wrapper--bottom {
+    margin-bottom: 15rem;
+  }
+}
+@media screen and (min-width: 62em) {
+  .o-project-section-wrapper--bottom {
+    margin-bottom: 25rem;
+  }
+}
+@media screen and (min-width: 75em) {
+  .o-project-section-wrapper--bottom {
+    margin-bottom: 0;
+  }
+}
 
 /* Contact Me Page */
 .o-contact-page-wrapper {
@@ -754,7 +772,6 @@ ol > li {
   width: 30%;
   bottom: 5rem;
   left: -2rem;
-  z-index: 100;
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
   -ms-transform: rotate(30deg);
@@ -768,7 +785,7 @@ ol > li {
 }
 @media screen and (min-width: 62em) {
   .c-image__footer {
-    width: 18rem;
+    width: 16rem;
   }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
@@ -851,10 +868,6 @@ ol > li {
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2);
-}
-.c-contact-icon--reverse {
-  right: initial;
-  left: 1rem;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

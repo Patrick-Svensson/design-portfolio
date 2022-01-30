@@ -246,6 +246,21 @@
             padding-right: 1rem;
             margin-top: 2rem;
         }
+
+        &--bottom {
+            margin-bottom: 8rem;
+            @include responsive(small) {
+                margin-bottom: 15rem;
+            }
+
+            @include responsive(large) {
+                margin-bottom: 25rem;
+            }
+
+            @include responsive(x-large) {
+                margin-bottom: 0;
+            }
+        }
     }
 }
 

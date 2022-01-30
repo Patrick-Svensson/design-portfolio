@@ -39,9 +39,4 @@
     &:focus {
         @include transform(scale(1.2));
     }
-
-    &--reverse {
-        right: initial;
-        left: 1rem;
-    }
 }
