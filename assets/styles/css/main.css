@@ -76,7 +76,7 @@ picture {
 h1,
 h2,
 h3 {
-  font-family: "Brandon Grotesque", sans-serif;
+  font-family: Brandon Grotesque, sans-serif;
   font-display: swap;
 }
 
@@ -105,7 +105,7 @@ h3 {
 p,
 b,
 ol > li {
-  font-family: "Minion Pro", sans-serif;
+  font-family: Minion Pro, sans-serif;
   color: #0a0a0a;
   line-height: normal;
   padding-top: 1rem;
@@ -131,7 +131,7 @@ p {
 
 figcaption,
 i {
-  font-family: "Minion Pro", sans-serif;
+  font-family: Minion Pro, sans-serif;
   font-size: clamp(0.625rem, 0.5833rem + 0.2083vw, 0.75rem);
 }
 
@@ -509,7 +509,7 @@ i {
   }
 }
 .c-navbar-toggler {
-  font-family: "Brandon Grotesque", sans-serif;
+  font-family: Brandon Grotesque, sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   letter-spacing: 0.04em;
@@ -566,7 +566,7 @@ i {
   width: 100%;
   padding-top: 1em;
   padding-bottom: 1em;
-  font-family: "Brandon Grotesque", sans-serif;
+  font-family: Brandon Grotesque, sans-serif;
   font-weight: 700;
   color: #f8f9fa;
   text-transform: uppercase;
@@ -640,7 +640,7 @@ i {
   color: #f0f0f0;
 }
 .c-header__contact-link {
-  font-family: "Brandon Grotesque", sans-serif;
+  font-family: Brandon Grotesque, sans-serif;
   font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
   font-weight: 700;
   color: #7ef4ae;
@@ -818,7 +818,7 @@ i {
 .c-project-button {
   background: linear-gradient(180deg, #434343 0%, #0a0a0a);
   color: #7ef4ae;
-  font-family: "Brandon Grotesque", sans-serif;
+  font-family: Brandon Grotesque, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 0.25rem;
