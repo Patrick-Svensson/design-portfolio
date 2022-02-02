@@ -47,6 +47,7 @@
         @include responsive(large) {
             height: auto;
             border-top: none;
+            padding-bottom: 0;
         }
 
         @include responsive(small-land) {
