@@ -293,10 +293,6 @@
         background-image: url(../../images/wave-sm-left.svg);
     }
 
-    @include responsive(medium) {
-        background-image: url(../../images/wave-md-left.svg);
-    }
-
     @include responsive(large) {
         background-image: url(../../images/wave-lg-left.svg);
     }

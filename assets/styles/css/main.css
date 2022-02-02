@@ -443,11 +443,6 @@ i {
     background-image: url(../../images/wave-sm-left.svg);
   }
 }
-@media screen and (min-width: 48em) {
-  .o-wave-wrapper {
-    background-image: url(../../images/wave-md-left.svg);
-  }
-}
 @media screen and (min-width: 62em) {
   .o-wave-wrapper {
     background-image: url(../../images/wave-lg-left.svg);
