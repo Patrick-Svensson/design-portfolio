@@ -162,7 +162,7 @@
         bottom: 0;
         right: 0;
         @include responsive(small) {
-            height: 55%;
+            height: 50%;
         }
 
         @include responsive(x-large) {

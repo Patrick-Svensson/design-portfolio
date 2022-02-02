@@ -308,7 +308,7 @@ i {
 }
 @media screen and (min-width: 36em) {
   .o-project__ux-header-image-wrapper {
-    height: 55%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 75em) {
@@ -620,7 +620,7 @@ i {
 }
 @media screen and (min-width: 75em) {
   .c-header__project-heading {
-    padding: 0 0 10rem 0;
+    padding: 0 0 10rem 5rem;
   }
 }
 @media screen and (min-width: 112.5em) {
@@ -699,6 +699,11 @@ i {
     width: 12rem;
     height: 12rem;
   }
+}
+.c-image__project-header {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
 }
 .c-image__world-of-whisky {
   height: 30vh;
