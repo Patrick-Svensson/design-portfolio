@@ -267,6 +267,7 @@ i {
   }
 }
 
+/* Testimonials */
 .o-testimonials-wrapper {
   max-width: 90rem;
   padding-top: 5rem;
@@ -440,7 +441,7 @@ i {
   height: 85vh;
 }
 
-/* Wave */
+/* Waves */
 .o-wave-wrapper {
   min-width: 100vw;
   position: relative;
