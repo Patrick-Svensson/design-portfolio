@@ -105,7 +105,7 @@ h3 {
 p,
 b,
 ol > li {
-  font-family: minio-pro, serif;
+  font-family: minion-pro, serif;
   color: #0a0a0a;
   line-height: normal;
   padding-top: 1rem;
@@ -131,7 +131,7 @@ p {
 
 figcaption,
 i {
-  font-family: minio-pro, serif;
+  font-family: minion-pro, serif;
   font-size: clamp(0.625rem, 0.5833rem + 0.2083vw, 0.75rem);
 }
 
