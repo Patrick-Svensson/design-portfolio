@@ -50,6 +50,11 @@ ol > li {
     }
 }
 
+b,
+ol > li {
+    font-weight: 600;
+}
+
 p {
     font-weight: 400;
 }
@@ -58,9 +63,4 @@ figcaption,
 i {
     font-family: $fontMain;
     font-size: clamp(0.625rem, 0.5833rem + 0.2083vw, 0.75rem);
-}
-
-b,
-ol > li {
-    font-weight: 600;
 }
