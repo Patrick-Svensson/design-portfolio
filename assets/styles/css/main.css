@@ -528,6 +528,12 @@ i {
 .c-navbar-list {
   height: calc(100vh - 56px);
   border-top: 1px solid rgba(248, 249, 250, 0.3);
+  padding-bottom: 5rem;
+}
+@media screen and (min-width: 36em) {
+  .c-navbar-list {
+    padding-bottom: 8rem;
+  }
 }
 @media screen and (min-width: 62em) {
   .c-navbar-list {

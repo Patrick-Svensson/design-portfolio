@@ -39,6 +39,11 @@
     &-list {
         height: calc(100vh - 56px);
         border-top: 1px solid rgba(248, 249, 250, 0.3);
+        padding-bottom: 5rem;
+        @include responsive(small) {
+            padding-bottom: 8rem;
+        }
+
         @include responsive(large) {
             height: auto;
             border-top: none;
