@@ -11,14 +11,9 @@ h1 {
     font-weight: 700;
     color: $colourGrey-500;
     font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
-    line-height: 2.5rem;
-    @include responsive(large) {
-        line-height: 3rem;
-    }
-
+    line-height: 1.3;
     @include responsive(xx-large) {
         font-size: 4.5rem;
-        line-height: 5rem;
     }
 }
 
@@ -37,16 +32,11 @@ b,
 ol > li {
     font-family: $fontMain;
     color: $colourGrey-600;
-    line-height: 1.25rem;
+    line-height: normal;
     padding-top: 1rem;
     font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
-    @include responsive(medium) {
-        line-height: 1.5rem;
-    }
-
     @include responsive(xx-large) {
         font-size: 1.5rem;
-        line-height: 2rem;
     }
 }
 

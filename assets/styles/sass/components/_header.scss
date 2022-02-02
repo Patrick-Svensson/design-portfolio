@@ -4,14 +4,9 @@
 .c-header {
     &-subheading {
         font-size: clamp(1.125rem, 0.9167rem + 1.0417vw, 1.75rem);
-        line-height: 1.4rem;
-        @include responsive(large) {
-            line-height: 2rem;
-        }
-
+        line-height: 1.3;
         @include responsive(xx-large) {
             font-size: 2.25rem;
-            line-height: 2.5rem;
         }
     }
 
