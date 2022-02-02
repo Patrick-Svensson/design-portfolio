@@ -115,7 +115,7 @@
 /* Testimonials */
 
 .o-testimonials-wrapper {
-    max-width: 90rem;
+    max-width: 112.5rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
     @include responsive(small-land) {
@@ -162,7 +162,7 @@
         bottom: 0;
         right: 0;
         @include responsive(small) {
-            height: 55%;
+            height: 50%;
         }
 
         @include responsive(x-large) {
@@ -291,10 +291,6 @@
     background-position: center top;
     @include responsive(small) {
         background-image: url(../../images/wave-sm-left.svg);
-    }
-
-    @include responsive(medium) {
-        background-image: url(../../images/wave-md-left.svg);
     }
 
     @include responsive(large) {

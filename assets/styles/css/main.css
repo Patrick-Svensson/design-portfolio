@@ -257,7 +257,7 @@ i {
 
 /* Testimonials */
 .o-testimonials-wrapper {
-  max-width: 90rem;
+  max-width: 112.5rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -308,7 +308,7 @@ i {
 }
 @media screen and (min-width: 36em) {
   .o-project__ux-header-image-wrapper {
-    height: 55%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 75em) {
@@ -441,11 +441,6 @@ i {
 @media screen and (min-width: 36em) {
   .o-wave-wrapper {
     background-image: url(../../images/wave-sm-left.svg);
-  }
-}
-@media screen and (min-width: 48em) {
-  .o-wave-wrapper {
-    background-image: url(../../images/wave-md-left.svg);
   }
 }
 @media screen and (min-width: 62em) {
@@ -625,7 +620,7 @@ i {
 }
 @media screen and (min-width: 75em) {
   .c-header__project-heading {
-    padding: 0 0 10rem 0;
+    padding: 0 0 10rem 5rem;
   }
 }
 @media screen and (min-width: 112.5em) {
@@ -704,6 +699,11 @@ i {
     width: 12rem;
     height: 12rem;
   }
+}
+.c-image__project-header {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
 }
 .c-image__world-of-whisky {
   height: 30vh;

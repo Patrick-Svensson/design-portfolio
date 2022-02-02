@@ -32,7 +32,7 @@
         }
 
         @include responsive(x-large) {
-            padding: 0 0 10rem 0;
+            padding: 0 0 10rem 5rem;
         }
 
         @include responsive(xx-large) {
