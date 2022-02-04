@@ -873,12 +873,16 @@ i {
   list-style-type: none;
   color: #bebebe;
 }
-.c-footer__link {
-  padding: 1rem;
-}
 .c-footer__link-icon {
   font-size: 1.5rem;
   color: #bebebe;
+  padding: 1rem;
+}
+.c-footer__link-text {
+  color: #7ef4ae;
+}
+.c-footer__link-text:hover, .c-footer__link-text:focus {
+  color: #b3f7cf;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

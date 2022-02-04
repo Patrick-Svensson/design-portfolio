@@ -48,11 +48,18 @@
         color: $colourGrey-300;
     }
 
-    &__link {
+    &__link-icon {
+        font-size: 1.5rem;
+        color: $colourGrey-300;
         padding: 1rem;
-        &-icon {
-            font-size: 1.5rem;
-            color: $colourGrey-300;
+    }
+
+    &__link-text {
+        color: $colourAccent-200;
+
+        &:hover,
+        &:focus {
+            color: $colourAccent-100;
         }
     }
 }
