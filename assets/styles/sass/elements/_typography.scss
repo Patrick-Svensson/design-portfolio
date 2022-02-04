@@ -30,7 +30,8 @@ h3 {
 
 p,
 b,
-ol > li {
+ol > li,
+ul > li {
     font-family: $fontMain;
     color: $colourGrey-600;
     line-height: normal;
@@ -47,7 +48,8 @@ ol > li {
     font-weight: 600;
 }
 
-p {
+p,
+ul > li {
     font-weight: 400;
 }
 
