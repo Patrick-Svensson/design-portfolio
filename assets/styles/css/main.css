@@ -869,8 +869,11 @@ i {
   color: #b3f7cf;
 }
 
-.c-footer {
-  max-width: 112.5rem;
+@media screen and (min-width: 75em) {
+  .c-footer {
+    width: 90vw;
+    max-width: 112.5rem;
+  }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .c-footer {
