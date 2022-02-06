@@ -20,10 +20,10 @@
 
     &__figcaption-link {
         font-size: 0.875rem;
-        color: $colourAccentPrimary-200;
+        color: $colourAccentPrimary;
         &:hover,
         &:focus {
-            color: $colourAccentPrimary-100;
+            color: $colourGrey-200;
         }
     }
 

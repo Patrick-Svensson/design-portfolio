@@ -590,7 +590,7 @@ i {
   }
 }
 .c-navbar__link:hover, .c-navbar__link:focus {
-  color: #b3f7cf;
+  color: #7ef4ae;
 }
 .c-navbar__link--active {
   color: #7ef4ae;
@@ -657,7 +657,7 @@ i {
   color: #7ef4ae;
 }
 .c-header__contact-link:hover, .c-header__contact-link:focus {
-  color: #b3f7cf;
+  color: #7ef4ae;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
@@ -823,7 +823,7 @@ i {
   color: #7ef4ae;
 }
 .c-testimonials__figcaption-link:hover, .c-testimonials__figcaption-link:focus {
-  color: #b3f7cf;
+  color: #f0f0f0;
 }
 .c-testimonials__figcaption-cite {
   font-size: 0.75rem;
@@ -873,7 +873,7 @@ i {
 }
 .c-project-button:hover, .c-project-button:focus {
   background-color: #0a0a0a;
-  color: #b3f7cf;
+  color: #7ef4ae;
 }
 
 @media screen and (min-width: 75em) {

@@ -87,11 +87,11 @@
 
         &:hover,
         &:focus {
-            color: $colourAccentPrimary-100;
+            color: $colourAccentPrimary;
         }
 
         &--active {
-            color: $colourAccentPrimary-200;
+            color: $colourAccentPrimary;
         }
     }
 }
