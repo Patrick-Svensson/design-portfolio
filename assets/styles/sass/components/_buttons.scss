@@ -3,7 +3,7 @@
 
 .c-project-button {
     background: linear-gradient(180deg, $colourGrey-400 0%, $colourGrey-600);
-    color: $colourAccent-200;
+    color: $colourAccentPrimary-200;
     font-family: $fontDisplay;
     font-weight: 700;
     text-transform: uppercase;
@@ -23,6 +23,6 @@
     &:hover,
     &:focus {
         background-color: $colourGrey-600;
-        color: $colourAccent-100;
+        color: $colourAccentPrimary-100;
     }
 }

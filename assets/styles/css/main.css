@@ -484,7 +484,6 @@ i {
 
 .o-footer-wrapper {
   position: absolute;
-  left: 0;
   background-color: #0a0a0a;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
@@ -881,17 +880,24 @@ i {
 .c-footer__list-item {
   list-style-type: none;
   font-family: minion-pro, serif;
-  font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
+  font-size: 1rem;
   font-weight: 400;
   line-height: normal;
   color: #bebebe;
 }
 .c-footer__link {
-  padding: 0.5rem 1.5rem 0.5rem 0;
+  color: #bebebe;
+}
+.c-footer__link:hover,
+.c-footer__link focus {
+  color: #7ef4ae;
 }
 .c-footer__link-icon {
   font-size: 2rem;
-  color: #bebebe;
+}
+.c-footer__heart-icon {
+  font-size: 1rem;
+  color: #db5050;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

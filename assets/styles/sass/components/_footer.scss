@@ -10,18 +10,27 @@
     &__list-item {
         list-style-type: none;
         font-family: $fontMain;
-        font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
+        font-size: 1rem;
         font-weight: 400;
         line-height: normal;
         color: $colourGrey-300;
     }
 
     &__link {
-        padding: 0.5rem 1.5rem 0.5rem 0;
+        color: $colourGrey-300;
+
+        &:hover,
+        focus {
+            color: $colourAccentPrimary-200;
+        }
     }
 
     &__link-icon {
         font-size: 2rem;
-        color: $colourGrey-300;
+    }
+
+    &__heart-icon {
+        font-size: 1rem;
+        color: $colourAccentSecondary;
     }
 }
