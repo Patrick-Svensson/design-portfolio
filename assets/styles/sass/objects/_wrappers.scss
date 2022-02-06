@@ -309,17 +309,17 @@
         background-size: contain;
         background-position: center bottom 2rem;
         position: absolute;
+    }
 
-        &--reverse {
-            @include transform(rotate(180deg));
-            background-position: center top 8rem;
-            @include responsive(x-large) {
-                background-position: center top;
-            }
+    &__project-header--reverse {
+        @include transform(rotate(180deg));
+        background-position: center top 8rem;
+        @include responsive(x-large) {
+            background-position: center top;
+        }
 
-            @include responsive(small-land) {
-                background-position: center top;
-            }
+        @include responsive(small-land) {
+            background-position: center top;
         }
     }
 
