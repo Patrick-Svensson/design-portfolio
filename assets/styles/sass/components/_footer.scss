@@ -1,0 +1,19 @@
+@use "../settings" as *;
+@use "../tools" as *;
+
+.c-footer {
+    &__list-item {
+        list-style-type: none;
+        font-family: $fontMain;
+        font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
+        font-weight: 400;
+        line-height: normal;
+        color: $colourGrey-300;
+    }
+
+    &__link-icon {
+        font-size: 2rem;
+        color: $colourGrey-300;
+        padding: 1rem;
+    }
+}
