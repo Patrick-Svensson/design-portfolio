@@ -77,7 +77,6 @@ h1,
 h2,
 h3 {
   font-family: brandon-grotesque, sans-serif;
-  font-display: swap;
 }
 
 h1 {
@@ -109,7 +108,6 @@ ol > li {
   color: #0a0a0a;
   line-height: normal;
   padding-top: 1rem;
-  font-display: swap;
   font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
 }
 @media screen and (min-width: 112.5em) {
@@ -398,11 +396,11 @@ i {
   }
 }
 .o-project-section-wrapper--bottom {
-  margin-bottom: 8rem;
+  margin-bottom: 12rem;
 }
 @media screen and (min-width: 36em) {
   .o-project-section-wrapper--bottom {
-    margin-bottom: 15rem;
+    margin-bottom: 25rem;
   }
 }
 @media screen and (min-width: 62em) {
@@ -413,6 +411,11 @@ i {
 @media screen and (min-width: 75em) {
   .o-project-section-wrapper--bottom {
     margin-bottom: 0;
+  }
+}
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .o-project-section-wrapper--bottom {
+    margin-bottom: 3rem;
   }
 }
 
@@ -426,7 +429,8 @@ i {
   }
 }
 .o-contact-content-wrapper {
-  height: 85vh;
+  height: 100vh;
+  padding-bottom: 5rem;
 }
 
 /* Waves */
@@ -480,8 +484,19 @@ i {
     background-position: center top;
   }
 }
-.o-wave-wrapper__footer {
-  height: 20vh;
+
+.o-footer-wrapper {
+  position: absolute;
+  background-color: #0a0a0a;
+}
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .o-footer-wrapper {
+    position: static;
+    margin-top: 8rem;
+  }
+}
+.o-footer-wrapper--light {
+  background-color: #f8f9fa;
 }
 
 .c-navbar {
@@ -552,7 +567,7 @@ i {
 }
 @media screen and (min-width: 62em) {
   .c-navbar__list-item {
-    padding-left: 1.5rem;
+    padding-left: 2rem;
     border-top: none;
   }
 }
@@ -579,7 +594,7 @@ i {
   }
 }
 .c-navbar__link:hover, .c-navbar__link:focus {
-  color: #b3f7cf;
+  color: #7ef4ae;
 }
 .c-navbar__link--active {
   color: #7ef4ae;
@@ -646,7 +661,7 @@ i {
   color: #7ef4ae;
 }
 .c-header__contact-link:hover, .c-header__contact-link:focus {
-  color: #b3f7cf;
+  color: #f0f0f0;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
@@ -757,9 +772,9 @@ i {
 }
 .c-image__footer {
   position: absolute;
-  width: 30%;
+  width: 35%;
   height: auto;
-  bottom: 5rem;
+  bottom: 30rem;
   left: -2rem;
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
@@ -769,12 +784,17 @@ i {
 }
 @media screen and (min-width: 48em) {
   .c-image__footer {
-    width: 12rem;
+    width: 15rem;
   }
 }
 @media screen and (min-width: 62em) {
   .c-image__footer {
     width: 16rem;
+  }
+}
+@media screen and (min-width: 75em) {
+  .c-image__footer {
+    bottom: 25rem;
   }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
@@ -807,11 +827,30 @@ i {
   color: #7ef4ae;
 }
 .c-testimonials__figcaption-link:hover, .c-testimonials__figcaption-link:focus {
-  color: #b3f7cf;
+  color: #f0f0f0;
 }
 .c-testimonials__figcaption-cite {
   font-size: 0.75rem;
   color: #bebebe;
+}
+
+.c-contact-icon {
+  position: fixed;
+  bottom: 5rem;
+  right: 1rem;
+  transition: 500ms linear;
+}
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .c-contact-icon {
+    display: none;
+  }
+}
+.c-contact-icon:hover, .c-contact-icon:focus {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .c-project-button {
@@ -838,26 +877,48 @@ i {
 }
 .c-project-button:hover, .c-project-button:focus {
   background-color: #0a0a0a;
-  color: #b3f7cf;
+  color: #7ef4ae;
 }
 
-.c-contact-icon {
-  position: fixed;
-  bottom: 5rem;
-  right: 1rem;
-  transition: 500ms linear;
-}
-@media (min-width: 25em) and (max-height: 42.9em) {
-  .c-contact-icon {
-    display: none;
+@media screen and (min-width: 75em) {
+  .c-footer {
+    width: 90vw;
+    max-width: 112.5rem;
   }
 }
-.c-contact-icon:hover, .c-contact-icon:focus {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .c-footer {
+    padding-left: 5rem;
+  }
+}
+.c-footer__list-item {
+  list-style-type: none;
+  font-family: minion-pro, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  color: #bebebe;
+}
+.c-footer__link {
+  color: #bebebe;
+}
+.c-footer__link:hover,
+.c-footer__link focus {
+  color: #7ef4ae;
+}
+.c-footer__link-icon {
+  font-size: 2rem;
+}
+.c-footer__heart-icon {
+  font-size: 1rem;
+  color: #db5050;
+}
+.c-footer--light {
+  background-color: #f8f9fa;
+  color: #222;
+}
+.c-footer__link--light:hover {
+  color: #db5050;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

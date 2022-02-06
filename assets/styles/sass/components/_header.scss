@@ -55,10 +55,10 @@
         font-family: $fontDisplay;
         font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
         font-weight: 700;
-        color: $colourAccent-200;
+        color: $colourAccentPrimary;
         &:hover,
         &:focus {
-            color: $colourAccent-100;
+            color: $colourGrey-200;
         }
     }
 }

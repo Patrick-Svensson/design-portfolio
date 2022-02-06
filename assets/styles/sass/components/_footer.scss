@@ -1,0 +1,49 @@
+@use "../settings" as *;
+@use "../tools" as *;
+
+.c-footer {
+    @include responsive(x-large) {
+        width: 90vw;
+        max-width: 112.5rem;
+    }
+
+    @include responsive(small-land) {
+        padding-left: 5rem;
+    }
+
+    &__list-item {
+        list-style-type: none;
+        font-family: $fontMain;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: normal;
+        color: $colourGrey-300;
+    }
+
+    &__link {
+        color: $colourGrey-300;
+
+        &:hover,
+        focus {
+            color: $colourAccentPrimary;
+        }
+    }
+
+    &__link-icon {
+        font-size: 2rem;
+    }
+
+    &__heart-icon {
+        font-size: 1rem;
+        color: $colourAccentSecondary;
+    }
+
+    &--light {
+        background-color: $colourGrey-100;
+        color: $colourGrey-500;
+    }
+
+    &__link--light:hover {
+        color: $colourAccentSecondary;
+    }
+}

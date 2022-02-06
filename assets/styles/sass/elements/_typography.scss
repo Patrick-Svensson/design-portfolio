@@ -5,7 +5,6 @@ h1,
 h2,
 h3 {
     font-family: $fontDisplay;
-    font-display: swap;
 }
 
 h1 {
@@ -35,7 +34,6 @@ ol > li {
     color: $colourGrey-600;
     line-height: normal;
     padding-top: 1rem;
-    font-display: swap;
     font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
     @include responsive(xx-large) {
         font-size: 1.5rem;
