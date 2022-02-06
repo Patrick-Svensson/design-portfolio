@@ -61,7 +61,7 @@
     &__list-item {
         border-top: 1px solid rgba(248, 249, 250, 0.3);
         @include responsive(large) {
-            padding-left: 1.5rem;
+            padding-left: 2rem;
             border-top: none;
         }
 
