@@ -329,8 +329,11 @@
 }
 
 .o-footer-wrapper {
-    max-width: 112.5rem;
     position: absolute;
     left: 0;
     background-color: $colourGrey-600;
+    @include responsive(small-land) {
+        position: static;
+        margin-top: 8rem;
+    }
 }

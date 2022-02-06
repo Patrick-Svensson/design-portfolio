@@ -2,6 +2,11 @@
 @use "../tools" as *;
 
 .c-footer {
+    max-width: 112.5rem;
+    @include responsive(small-land) {
+        padding-left: 5rem;
+    }
+
     &__list-item {
         list-style-type: none;
         font-family: $fontMain;
@@ -11,9 +16,12 @@
         color: $colourGrey-300;
     }
 
+    &__link {
+        padding: 0.5rem 1.5rem 0.5rem 0;
+    }
+
     &__link-icon {
         font-size: 2rem;
         color: $colourGrey-300;
-        padding: 1rem;
     }
 }
