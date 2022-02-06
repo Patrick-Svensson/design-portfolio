@@ -250,9 +250,9 @@
     }
 
     &-section-wrapper--bottom {
-        margin-bottom: 8rem;
+        margin-bottom: 12rem;
         @include responsive(small) {
-            margin-bottom: 15rem;
+            margin-bottom: 25rem;
         }
 
         @include responsive(large) {
@@ -261,6 +261,10 @@
 
         @include responsive(x-large) {
             margin-bottom: 0;
+        }
+
+        @include responsive(small-land) {
+            margin-bottom: 3rem;
         }
     }
 }
@@ -321,10 +325,6 @@
         @include responsive(small-land) {
             background-position: center top;
         }
-    }
-
-    &__footer {
-        height: 20vh;
     }
 }
 

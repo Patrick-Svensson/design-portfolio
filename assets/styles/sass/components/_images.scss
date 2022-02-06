@@ -97,17 +97,21 @@
 
     &__footer {
         position: absolute;
-        width: 30%;
+        width: 35%;
         height: auto;
-        bottom: 5rem;
+        bottom: 30rem;
         left: -2rem;
         @include transform(rotate(30deg));
         @include responsive(medium) {
-            width: 12rem;
+            width: 15rem;
         }
 
         @include responsive(large) {
             width: 16rem;
+        }
+
+        @include responsive(x-large) {
+            bottom: 25rem;
         }
 
         @include responsive(small-land) {
