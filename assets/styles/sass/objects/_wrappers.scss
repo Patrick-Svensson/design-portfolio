@@ -29,8 +29,7 @@
     }
 
     &-text-wrapper {
-        height: 55%;
-        margin: 0;
+        margin: 0 0 5rem 0;
 
         @include responsive(small-land) {
             width: 80%;
