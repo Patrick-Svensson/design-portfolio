@@ -860,7 +860,7 @@ i {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 0.25rem;
-  padding: 0.8rem 2rem 0.7rem 2rem;
+  padding: 0.8em 2em 0.7em 2em;
   font-size: 1rem;
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
