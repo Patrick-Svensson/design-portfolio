@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* ***** Transform ***** */
+/* ***** Transition ***** */
 /* ***** Media Queries ***** */
 /*
 - 576px = x-small  (default)
@@ -501,6 +502,7 @@ i {
 .c-navbar {
   max-width: 112.5rem;
   padding-right: 0;
+  position: relative;
 }
 @media screen and (min-width: 48em) {
   .c-navbar {
@@ -535,6 +537,16 @@ i {
   .c-navbar-toggler {
     padding: 1.5rem 0.5rem;
   }
+}
+.c-navbar-toggler__close {
+  opacity: 0;
+  visibility: none;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
 }
 .c-navbar-list {
   height: calc(100vh - 56px);
@@ -597,6 +609,17 @@ i {
 }
 .c-navbar__link--active {
   color: #7ef4ae;
+}
+
+.menuTogglerClose {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
 }
 
 .c-header-subheading {
