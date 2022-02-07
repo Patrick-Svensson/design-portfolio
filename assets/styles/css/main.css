@@ -551,6 +551,11 @@ i {
   -o-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
   transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
 }
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .c-navbar-toggler__close {
+    display: none;
+  }
+}
 .c-navbar-list {
   height: calc(100vh - 56px);
   border-top: 1px solid rgba(248, 249, 250, 0.3);
@@ -617,6 +622,11 @@ i {
 .menuTogglerClose {
   opacity: 1;
   visibility: visible;
+}
+@media (min-width: 25em) and (max-height: 42.9em) {
+  .menuTogglerClose {
+    display: block;
+  }
 }
 
 .c-header-subheading {

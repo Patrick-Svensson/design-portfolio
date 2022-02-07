@@ -46,6 +46,9 @@
         -ms-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
         -o-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
         transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
+        @include responsive(small-land) {
+            display: none;
+        }
     }
 
     &-list {
@@ -111,4 +114,7 @@
 .menuTogglerClose {
     opacity: 1;
     visibility: visible;
+    @include responsive(small-land) {
+        display: block;
+    }
 }
