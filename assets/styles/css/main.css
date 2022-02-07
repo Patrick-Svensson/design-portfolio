@@ -853,13 +853,16 @@ i {
 }
 
 .c-project-button {
+  width: 12.5rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
   background: linear-gradient(180deg, #434343 0%, #0a0a0a);
   color: #7ef4ae;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 0.25rem;
-  padding: 0.8em 2em 0.7em 2em;
   font-size: 1rem;
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
