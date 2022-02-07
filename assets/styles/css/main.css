@@ -390,7 +390,7 @@ i {
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .o-project-section-wrapper {
-    padding-left: 5rem;
+    padding-left: 6rem;
     padding-right: 1rem;
     margin-top: 2rem;
   }
@@ -534,7 +534,7 @@ i {
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .c-navbar-toggler {
-    padding: 1rem 0.5rem;
+    padding: 2rem 0.5rem;
   }
 }
 .c-navbar-list {
