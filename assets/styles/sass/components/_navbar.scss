@@ -41,6 +41,10 @@
         opacity: 0;
         visibility: none;
         @include transform(scale(1.1));
+        -webkit-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
+        -moz-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
+        -ms-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
+        -o-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
         transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
     }
 
@@ -107,6 +111,4 @@
 .menuTogglerClose {
     opacity: 1;
     visibility: visible;
-    @include transform(scale(1));
-    transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
 }
