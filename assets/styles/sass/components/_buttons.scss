@@ -9,16 +9,8 @@
     text-transform: uppercase;
     border-radius: 0.25rem;
     padding: 0.8em 2em 0.7em 2em;
-    font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
+    font-size: 1rem;
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
-    @include responsive(medium) {
-        line-height: 1.5rem;
-    }
-
-    @include responsive(xx-large) {
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
 
     &:hover,
     &:focus {
