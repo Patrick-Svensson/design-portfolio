@@ -19,7 +19,7 @@
 
     &-logo {
         @include responsive(small-land) {
-            padding-top: 1rem;
+            display: none;
         }
     }
 
@@ -32,7 +32,7 @@
         background-color: transparent;
         padding: 1rem;
         @include responsive(small-land) {
-            padding: 2rem 0.5rem;
+            padding: 1.5rem 0.5rem;
         }
     }
 

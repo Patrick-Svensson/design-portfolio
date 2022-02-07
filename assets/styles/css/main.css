@@ -520,7 +520,7 @@ i {
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .c-navbar-logo {
-    padding-top: 1rem;
+    display: none;
   }
 }
 .c-navbar-toggler {
@@ -534,7 +534,7 @@ i {
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .c-navbar-toggler {
-    padding: 2rem 0.5rem;
+    padding: 1.5rem 0.5rem;
   }
 }
 .c-navbar-list {
