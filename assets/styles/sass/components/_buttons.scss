@@ -14,7 +14,7 @@
     border-radius: 0.25rem;
     font-size: 1rem;
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
-    transition: 500ms linear;
+    @include transition(500ms linear);
 
     &:hover,
     &:focus {

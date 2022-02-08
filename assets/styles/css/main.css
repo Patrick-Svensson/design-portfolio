@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* ***** Transform ***** */
+/* ***** Transition ***** */
 /* ***** Media Queries ***** */
 /*
 - 576px = x-small  (default)
@@ -545,11 +546,16 @@ i {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
-  -webkit-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
-  -moz-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
-  -ms-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
-  -o-transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
-  transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
+  -webkit-transition: visibillty 0s linear;
+  -moz-transition: visibillty 0s linear;
+  -ms-transition: visibillty 0s linear;
+  -o-transition: visibillty 0s linear;
+  transition: visibillty 0s linear;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .c-navbar-toggler__close {
@@ -867,6 +873,10 @@ i {
   position: fixed;
   bottom: 5rem;
   right: 1rem;
+  -webkit-transition: 500ms linear;
+  -moz-transition: 500ms linear;
+  -ms-transition: 500ms linear;
+  -o-transition: 500ms linear;
   transition: 500ms linear;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
@@ -895,6 +905,10 @@ i {
   border-radius: 0.25rem;
   font-size: 1rem;
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transition: 500ms linear;
+  -moz-transition: 500ms linear;
+  -ms-transition: 500ms linear;
+  -o-transition: 500ms linear;
   transition: 500ms linear;
 }
 .c-project-button:hover, .c-project-button:focus {
