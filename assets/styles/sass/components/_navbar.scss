@@ -40,6 +40,7 @@
     &-toggler__close {
         opacity: 0;
         visibility: none;
+        color: $colourAccentSecondary;
         @include transform(scale(1.1));
         @include transition(visibillty 0s linear);
         @include transition(opacity 500ms);

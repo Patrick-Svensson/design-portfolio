@@ -541,6 +541,7 @@ i {
 .c-navbar-toggler__close {
   opacity: 0;
   visibility: none;
+  color: #c74444;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -961,14 +962,14 @@ i {
 }
 .c-footer__heart-icon {
   font-size: 1rem;
-  color: #db5050;
+  color: #c74444;
 }
 .c-footer--light {
   background-color: #f8f9fa;
   color: #222;
 }
 .c-footer__link--light:hover {
-  color: #db5050;
+  color: #c74444;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
