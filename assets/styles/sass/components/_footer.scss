@@ -22,6 +22,7 @@
 
     &__link {
         color: $colourGrey-300;
+        @include transition(300ms linear);
 
         &:hover,
         focus {

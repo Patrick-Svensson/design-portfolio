@@ -92,7 +92,7 @@
         color: $colourGrey-100;
         text-transform: uppercase;
         letter-spacing: 0.04em;
-        @include transition(500ms linear);
+        @include transition(300ms linear);
         @include responsive(small-land) {
             padding-top: 0.5rem;
             padding-bottom: 0.5rem;

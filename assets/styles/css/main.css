@@ -611,11 +611,11 @@ i {
   color: #f8f9fa;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  -webkit-transition: 500ms linear;
-  -moz-transition: 500ms linear;
-  -ms-transition: 500ms linear;
-  -o-transition: 500ms linear;
-  transition: 500ms linear;
+  -webkit-transition: 300ms linear;
+  -moz-transition: 300ms linear;
+  -ms-transition: 300ms linear;
+  -o-transition: 300ms linear;
+  transition: 300ms linear;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .c-navbar__link {
@@ -946,6 +946,11 @@ i {
 }
 .c-footer__link {
   color: #bebebe;
+  -webkit-transition: 300ms linear;
+  -moz-transition: 300ms linear;
+  -ms-transition: 300ms linear;
+  -o-transition: 300ms linear;
+  transition: 300ms linear;
 }
 .c-footer__link:hover,
 .c-footer__link focus {
