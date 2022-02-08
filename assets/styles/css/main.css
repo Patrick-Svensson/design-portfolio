@@ -895,9 +895,14 @@ i {
   border-radius: 0.25rem;
   font-size: 1rem;
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 500ms linear;
 }
 .c-project-button:hover, .c-project-button:focus {
-  background-color: #0a0a0a;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
   color: #7ef4ae;
 }
 
