@@ -700,9 +700,14 @@ i {
   font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
   font-weight: 700;
   color: #7ef4ae;
+  -webkit-transition: 300ms linear;
+  -moz-transition: 300ms linear;
+  -ms-transition: 300ms linear;
+  -o-transition: 300ms linear;
+  transition: 300ms linear;
 }
 .c-header__contact-link:hover, .c-header__contact-link:focus {
-  color: #f0f0f0;
+  color: #c74444;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
@@ -866,9 +871,14 @@ i {
 .c-testimonials__figcaption-link {
   font-size: 0.875rem;
   color: #7ef4ae;
+  -webkit-transition: 300ms linear;
+  -moz-transition: 300ms linear;
+  -ms-transition: 300ms linear;
+  -o-transition: 300ms linear;
+  transition: 300ms linear;
 }
 .c-testimonials__figcaption-link:hover, .c-testimonials__figcaption-link:focus {
-  color: #f0f0f0;
+  color: #c74444;
 }
 .c-testimonials__figcaption-cite {
   font-size: 0.75rem;

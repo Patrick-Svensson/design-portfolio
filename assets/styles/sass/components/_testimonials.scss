@@ -21,9 +21,11 @@
     &__figcaption-link {
         font-size: 0.875rem;
         color: $colourAccentPrimary;
+        @include transition(300ms linear);
+
         &:hover,
         &:focus {
-            color: $colourGrey-200;
+            color: $colourAccentSecondary;
         }
     }
 
