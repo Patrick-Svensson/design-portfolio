@@ -625,10 +625,10 @@ i {
   }
 }
 .c-navbar__link:hover, .c-navbar__link:focus {
-  color: #7ef4ae;
+  color: #60d390;
 }
 .c-navbar__link--active {
-  color: #7ef4ae;
+  color: #60d390;
 }
 
 .menuTogglerClose {
@@ -699,7 +699,7 @@ i {
   font-family: brandon-grotesque, sans-serif;
   font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
   font-weight: 700;
-  color: #7ef4ae;
+  color: #60d390;
   -webkit-transition: 300ms linear;
   -moz-transition: 300ms linear;
   -ms-transition: 300ms linear;
@@ -870,7 +870,7 @@ i {
 }
 .c-testimonials__figcaption-link {
   font-size: 0.875rem;
-  color: #7ef4ae;
+  color: #60d390;
   -webkit-transition: 300ms linear;
   -moz-transition: 300ms linear;
   -ms-transition: 300ms linear;
@@ -914,7 +914,7 @@ i {
   display: grid;
   place-items: center;
   background: linear-gradient(180deg, #434343 0%, #0a0a0a);
-  color: #7ef4ae;
+  color: #60d390;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -933,7 +933,7 @@ i {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
-  color: #7ef4ae;
+  color: #60d390;
 }
 
 @media screen and (min-width: 75em) {
@@ -965,7 +965,7 @@ i {
 }
 .c-footer__link:hover,
 .c-footer__link focus {
-  color: #7ef4ae;
+  color: #60d390;
 }
 .c-footer__link-icon {
   font-size: 2rem;
