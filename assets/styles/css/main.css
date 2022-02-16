@@ -707,7 +707,7 @@ i {
   transition: 300ms linear;
 }
 .c-header__contact-link:hover, .c-header__contact-link:focus {
-  color: #c74444;
+  color: #f8f9fa;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
@@ -878,7 +878,7 @@ i {
   transition: 300ms linear;
 }
 .c-testimonials__figcaption-link:hover, .c-testimonials__figcaption-link:focus {
-  color: #c74444;
+  color: #f8f9fa;
 }
 .c-testimonials__figcaption-cite {
   font-size: 0.75rem;
@@ -977,9 +977,6 @@ i {
 .c-footer--light {
   background-color: #f8f9fa;
   color: #0a0a0a;
-}
-.c-footer__link--light:hover {
-  color: #c74444;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
