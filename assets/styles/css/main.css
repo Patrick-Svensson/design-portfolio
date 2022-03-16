@@ -943,7 +943,7 @@ i {
   }
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
-  .c-footer {
+  .c-footer__text-content {
     padding-left: 5rem;
   }
 }

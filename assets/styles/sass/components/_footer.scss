@@ -7,8 +7,10 @@
         max-width: 112.5rem;
     }
 
-    @include responsive(small-land) {
-        padding-left: 5rem;
+    &__text-content {
+        @include responsive(small-land) {
+            padding-left: 5rem;
+        }
     }
 
     &__list-item {
