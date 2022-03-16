@@ -13,12 +13,12 @@
     text-transform: uppercase;
     border-radius: 0.25rem;
     font-size: 1rem;
-    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
     @include transition(500ms linear);
 
     &:hover,
     &:focus {
-        @include transform(scale(1.1));
+        @include transform(translateY(-3px));
         color: $colourAccentPrimary;
+        box-shadow: rgb(38, 57, 77) 0px 15px 25px -10px;
     }
 }
