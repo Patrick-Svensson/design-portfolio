@@ -12,13 +12,6 @@
     }
 }
 
-.o-navbar--bg-reverse {
-    background: linear-gradient(180deg, $colourGrey-600 0%, $colourGrey-400);
-    @include responsive(small-land) {
-        background: linear-gradient(180deg, $colourGrey-400 0%, $colourGrey-600);
-    }
-}
-
 /* Landing Page */
 
 .o-index {
@@ -270,18 +263,9 @@
 
 /* Contact Me Page */
 
-.o-contact {
-    &-page-wrapper {
-        background: linear-gradient(180deg, $colourGrey-600 0%, $colourGrey-400);
-        @include responsive(small-land) {
-            background: linear-gradient(180deg, $colourGrey-400 0%, $colourGrey-600);
-        }
-    }
-
-    &-content-wrapper {
-        height: 100vh;
-        padding-bottom: 5rem;
-    }
+.o-contact-content-wrapper {
+    height: 100vh;
+    padding-bottom: 5rem;
 }
 
 /* Waves */

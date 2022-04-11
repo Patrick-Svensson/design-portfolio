@@ -44,23 +44,4 @@
             padding: 3rem 5rem 0 0;
         }
     }
-
-    &__contact-heading {
-        font-size: clamp(1.2rem, 0.7667rem + 2.1667vw, 2.5rem);
-        font-weight: 500;
-        color: $colourGrey-200;
-    }
-
-    &__contact-link {
-        font-family: $fontDisplay;
-        font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
-        font-weight: 700;
-        color: $colourAccentPrimary;
-        @include transition(300ms linear);
-
-        &:hover,
-        &:focus {
-            color: $colourGrey-100;
-        }
-    }
 }

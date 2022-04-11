@@ -146,15 +146,6 @@ i {
   }
 }
 
-.o-navbar--bg-reverse {
-  background: linear-gradient(180deg, #0a0a0a 0%, #434343);
-}
-@media (min-width: 25em) and (max-height: 42.9em) {
-  .o-navbar--bg-reverse {
-    background: linear-gradient(180deg, #434343 0%, #0a0a0a);
-  }
-}
-
 /* Landing Page */
 .o-index-header-wrapper {
   max-width: 112.5rem;
@@ -420,14 +411,6 @@ i {
 }
 
 /* Contact Me Page */
-.o-contact-page-wrapper {
-  background: linear-gradient(180deg, #0a0a0a 0%, #434343);
-}
-@media (min-width: 25em) and (max-height: 42.9em) {
-  .o-contact-page-wrapper {
-    background: linear-gradient(180deg, #434343 0%, #0a0a0a);
-  }
-}
 .o-contact-content-wrapper {
   height: 100vh;
   padding-bottom: 5rem;
@@ -690,25 +673,6 @@ i {
     padding: 3rem 5rem 0 0;
   }
 }
-.c-header__contact-heading {
-  font-size: clamp(1.2rem, 0.7667rem + 2.1667vw, 2.5rem);
-  font-weight: 500;
-  color: #f0f0f0;
-}
-.c-header__contact-link {
-  font-family: brandon-grotesque, sans-serif;
-  font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
-  font-weight: 700;
-  color: #60d390;
-  -webkit-transition: 300ms linear;
-  -moz-transition: 300ms linear;
-  -ms-transition: 300ms linear;
-  -o-transition: 300ms linear;
-  transition: 300ms linear;
-}
-.c-header__contact-link:hover, .c-header__contact-link:focus {
-  color: #f8f9fa;
-}
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
 .c-waves {
@@ -938,7 +902,7 @@ i {
 
 @media screen and (min-width: 75em) {
   .c-footer {
-    width: 100vw;
+    width: 100%;
     max-width: 112.5rem;
   }
 }
@@ -973,10 +937,6 @@ i {
 .c-footer__heart-icon {
   font-size: 1rem;
   color: #c74444;
-}
-.c-footer--light {
-  background-color: #f8f9fa;
-  color: #0a0a0a;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
