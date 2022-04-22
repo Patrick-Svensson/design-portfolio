@@ -33,11 +33,23 @@
     }
 
     &__link-icon {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     &__heart-icon {
         font-size: 1rem;
         color: $colourPrimary-300;
+        padding: 0 6px;
+    }
+
+    &__icon-base {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color: $colourPrimary-300;
+        display: inline-grid;
+        place-content: center;
+        margin-right: 0.5rem;
+        opacity: 0.6;
     }
 }

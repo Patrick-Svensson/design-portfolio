@@ -927,11 +927,22 @@ i {
   color: #f0eceb;
 }
 .c-footer__link-icon {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .c-footer__heart-icon {
   font-size: 1rem;
   color: #991c0f;
+  padding: 0 6px;
+}
+.c-footer__icon-base {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #991c0f;
+  display: inline-grid;
+  place-content: center;
+  margin-right: 0.5rem;
+  opacity: 0.6;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */
