@@ -40,7 +40,7 @@
     &-toggler__close {
         opacity: 0;
         visibility: none;
-        color: $colourAccentSecondary;
+        color: $colourPrimary-100;
         @include transform(scale(1.1));
         @include transition(visibillty 0s linear);
         @include transition(opacity 500ms);
@@ -90,7 +90,7 @@
         padding-bottom: 1em;
         font-family: $fontDisplay;
         font-weight: 700;
-        color: $colourGrey-100;
+        color: $colourGrey-300;
         text-transform: uppercase;
         letter-spacing: 0.04em;
         @include transition(300ms linear);
@@ -101,11 +101,11 @@
 
         &:hover,
         &:focus {
-            color: $colourAccentPrimary;
+            color: $colourPrimary-100;
         }
 
         &--active {
-            color: $colourAccentPrimary;
+            color: $colourGrey-100;
         }
     }
 }

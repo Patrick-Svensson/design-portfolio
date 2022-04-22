@@ -40,20 +40,16 @@
         width: auto;
         height: 100%;
         object-fit: cover;
+
+        &-bhromaon {
+            filter: brightness(0.8);
+        }
     }
 
     &__world-of-whisky {
         height: 30vh;
         @include responsive(x-large) {
             height: 50vh;
-        }
-    }
-
-    &__themes-heading {
-        position: absolute;
-        top: -1rem;
-        &--bottom {
-            top: 50%;
         }
     }
 

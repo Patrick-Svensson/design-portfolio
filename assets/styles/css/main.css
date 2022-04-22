@@ -45,7 +45,7 @@ button {
 
 body {
   min-height: 100vh;
-  background-color: #f8f9fa;
+  background-color: #f0eceb;
   position: relative;
 }
 
@@ -82,7 +82,8 @@ h3 {
 
 h1 {
   font-weight: 700;
-  color: #222;
+  color: #1c1515;
+  opacity: 0.85;
   font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
   line-height: 1.3;
 }
@@ -94,19 +95,23 @@ h1 {
 
 h2 {
   font-weight: 500;
-  color: #0a0a0a;
+  color: #1c1515;
+  opacity: 0.9;
   font-size: clamp(1.5rem, 1.1667rem + 1.6667vw, 2.5rem);
 }
 
 h3 {
-  font-size: clamp(1.125rem, 1rem + 0.625vw, 1.5rem);
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1c1515;
+  opacity: 0.9;
 }
 
 p,
 b,
 ol > li {
   font-family: minion-pro, serif;
-  color: #0a0a0a;
+  color: #1c1515;
   line-height: normal;
   padding-top: 1rem;
   font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
@@ -136,13 +141,12 @@ i {
 
 /* Navbar */
 .o-navbar {
-  background: linear-gradient(180deg, #434343 0%, #0a0a0a);
+  background-color: #1c1515;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .o-navbar {
     height: 100vh;
     right: auto;
-    background: linear-gradient(90deg, #434343 0%, #0a0a0a);
   }
 }
 
@@ -341,9 +345,6 @@ i {
 .o-project__world-of-whisky-image-wrapper {
   height: 100%;
 }
-.o-project__themes-image-wrapper {
-  position: relative;
-}
 .o-project__concepts-sketching-image-wrapper {
   position: relative;
   margin-bottom: 25%;
@@ -354,9 +355,8 @@ i {
   }
 }
 .o-project__bhromaon-image-wrapper {
-  background-color: #bebebe;
+  background-color: #f0eceb;
   border-radius: 0.5rem;
-  padding: 1rem;
 }
 @media screen and (min-width: 36em) {
   .o-project-section-wrapper {
@@ -469,16 +469,13 @@ i {
 
 .o-footer-wrapper {
   position: absolute;
-  background-color: #0a0a0a;
+  background-color: #1c1515;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .o-footer-wrapper {
     position: static;
     margin-top: 8rem;
   }
-}
-.o-footer-wrapper--light {
-  background-color: #f8f9fa;
 }
 
 .c-navbar {
@@ -523,7 +520,7 @@ i {
 .c-navbar-toggler__close {
   opacity: 0;
   visibility: none;
-  color: #c74444;
+  color: #e56e60;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -591,7 +588,7 @@ i {
   padding-bottom: 1em;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 700;
-  color: #f8f9fa;
+  color: #c4b7b5;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   -webkit-transition: 300ms linear;
@@ -607,10 +604,10 @@ i {
   }
 }
 .c-navbar__link:hover, .c-navbar__link:focus {
-  color: #60d390;
+  color: #e56e60;
 }
 .c-navbar__link--active {
-  color: #60d390;
+  color: #f0eceb;
 }
 
 .menuTogglerClose {
@@ -728,6 +725,9 @@ i {
   height: 100%;
   object-fit: cover;
 }
+.c-image__project-header-bhromaon {
+  filter: brightness(0.8);
+}
 .c-image__world-of-whisky {
   height: 30vh;
 }
@@ -735,13 +735,6 @@ i {
   .c-image__world-of-whisky {
     height: 50vh;
   }
-}
-.c-image__themes-heading {
-  position: absolute;
-  top: -1rem;
-}
-.c-image__themes-heading--bottom {
-  top: 50%;
 }
 .c-image__crazy8 {
   width: 50%;
@@ -819,21 +812,22 @@ i {
 
 .c-testimonials__quote {
   font-size: 0.875rem;
-  color: #f8f9fa;
+  color: #c4b7b5;
   line-height: 1.2rem;
   position: relative;
 }
 .c-testimonials__quote::before {
   content: "❝";
   font-size: 1rem;
-  color: #bebebe;
+  color: #c4b7b5;
+  opacity: 0.9;
   position: absolute;
   top: 0.5rem;
   left: -0.8rem;
 }
 .c-testimonials__figcaption-link {
   font-size: 0.875rem;
-  color: #60d390;
+  color: #e56e60;
   -webkit-transition: 300ms linear;
   -moz-transition: 300ms linear;
   -ms-transition: 300ms linear;
@@ -841,11 +835,12 @@ i {
   transition: 300ms linear;
 }
 .c-testimonials__figcaption-link:hover, .c-testimonials__figcaption-link:focus {
-  color: #f8f9fa;
+  color: #bf4436;
 }
 .c-testimonials__figcaption-cite {
   font-size: 0.75rem;
-  color: #bebebe;
+  color: #c4b7b5;
+  opacity: 0.8;
 }
 
 .c-contact-icon {
@@ -876,8 +871,8 @@ i {
   height: 3rem;
   display: grid;
   place-items: center;
-  background: linear-gradient(180deg, #434343 0%, #0a0a0a);
-  color: #60d390;
+  background-color: #870000;
+  color: #c4b7b5;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -895,7 +890,8 @@ i {
   -ms-transform: translateY(-3px);
   -o-transform: translateY(-3px);
   transform: translateY(-3px);
-  color: #60d390;
+  background-color: #991c0f;
+  color: #f0eceb;
   box-shadow: #26394d 0px 15px 25px -10px;
 }
 
@@ -916,10 +912,10 @@ i {
   font-size: 1rem;
   font-weight: 400;
   line-height: normal;
-  color: #bebebe;
+  color: #c4b7b5;
 }
 .c-footer__link {
-  color: #bebebe;
+  color: #c4b7b5;
   -webkit-transition: 300ms linear;
   -moz-transition: 300ms linear;
   -ms-transition: 300ms linear;
@@ -928,14 +924,14 @@ i {
 }
 .c-footer__link:hover,
 .c-footer__link focus {
-  color: #60d390;
+  color: #f0eceb;
 }
 .c-footer__link-icon {
   font-size: 1.25rem;
 }
 .c-footer__heart-icon {
   font-size: 1rem;
-  color: #c74444;
+  color: #991c0f;
 }
 
 /* ****** Waves (Codepen by Daniel Österman @Goodkatz) ****** */

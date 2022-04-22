@@ -4,11 +4,10 @@
 /* Navbar */
 
 .o-navbar {
-    background: linear-gradient(180deg, $colourGrey-400 0%, $colourGrey-600);
+    background-color: $colourGrey-600;
     @include responsive(small-land) {
         height: 100vh;
         right: auto;
-        background: linear-gradient(90deg, $colourGrey-400 0%, $colourGrey-600);
     }
 }
 
@@ -197,10 +196,6 @@
         height: 100%;
     }
 
-    &__themes-image-wrapper {
-        position: relative;
-    }
-
     &__concepts-sketching-image-wrapper {
         position: relative;
         margin-bottom: 25%;
@@ -210,9 +205,8 @@
     }
 
     &__bhromaon-image-wrapper {
-        background-color: $colourGrey-300;
+        background-color: $colourGrey-100;
         border-radius: 0.5rem;
-        padding: 1rem;
     }
 
     &-section-wrapper {
@@ -317,9 +311,5 @@
     @include responsive(small-land) {
         position: static;
         margin-top: 8rem;
-    }
-
-    &--light {
-        background-color: $colourGrey-100;
     }
 }

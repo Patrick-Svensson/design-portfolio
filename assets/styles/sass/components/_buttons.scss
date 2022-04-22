@@ -6,8 +6,8 @@
     height: 3rem;
     display: grid;
     place-items: center;
-    background: linear-gradient(180deg, $colourGrey-400 0%, $colourGrey-600);
-    color: $colourAccentPrimary;
+    background-color: $colourPrimary-400;
+    color: $colourGrey-300;
     font-family: $fontDisplay;
     font-weight: 700;
     text-transform: uppercase;
@@ -18,7 +18,8 @@
     &:hover,
     &:focus {
         @include transform(translateY(-3px));
-        color: $colourAccentPrimary;
+        background-color: $colourPrimary-300;
+        color: $colourGrey-100;
         box-shadow: rgb(38, 57, 77) 0px 15px 25px -10px;
     }
 }

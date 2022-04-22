@@ -28,7 +28,7 @@
 
         &:hover,
         focus {
-            color: $colourAccentPrimary;
+            color: $colourGrey-100;
         }
     }
 
@@ -38,6 +38,6 @@
 
     &__heart-icon {
         font-size: 1rem;
-        color: $colourAccentSecondary;
+        color: $colourPrimary-300;
     }
 }

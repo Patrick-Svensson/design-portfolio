@@ -4,7 +4,7 @@
 .c-testimonials {
     &__quote {
         font-size: 0.875rem;
-        color: $colourGrey-100;
+        color: $colourGrey-300;
         line-height: 1.2rem;
         position: relative;
 
@@ -12,6 +12,7 @@
             content: "\0275D";
             font-size: 1rem;
             color: $colourGrey-300;
+            opacity: 0.9;
             position: absolute;
             top: 0.5rem;
             left: -0.8rem;
@@ -20,17 +21,18 @@
 
     &__figcaption-link {
         font-size: 0.875rem;
-        color: $colourAccentPrimary;
+        color: $colourPrimary-100;
         @include transition(300ms linear);
 
         &:hover,
         &:focus {
-            color: $colourGrey-100;
+            color: $colourPrimary-200;
         }
     }
 
     &__figcaption-cite {
         font-size: 0.75rem;
         color: $colourGrey-300;
+        opacity: 0.8;
     }
 }
