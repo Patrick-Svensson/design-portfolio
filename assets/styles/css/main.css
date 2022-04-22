@@ -469,6 +469,7 @@ i {
 
 .o-footer-wrapper {
   position: absolute;
+  border-top: 2px solid #3d3837;
   background-color: #1c1515;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
@@ -679,6 +680,7 @@ i {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: -100;
 }
 @media (min-width: 25em) and (max-height: 42.9em) {
   .c-waves {

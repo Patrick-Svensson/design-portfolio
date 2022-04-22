@@ -307,6 +307,7 @@
 
 .o-footer-wrapper {
     position: absolute;
+    border-top: 2px solid $colourGrey-400;
     background-color: $colourGrey-600;
     @include responsive(small-land) {
         position: static;
