@@ -22,11 +22,18 @@
 
     &-text-wrapper {
         margin: 0 0 5rem 0;
-
         @include responsive(small-land) {
             width: 80%;
             height: 75%;
             margin-left: 3rem;
+        }
+
+        @include responsive(medium) {
+            margin-bottom: 15rem;
+        }
+
+        @include responsive(x-large) {
+            margin-bottom: 5rem;
         }
     }
 

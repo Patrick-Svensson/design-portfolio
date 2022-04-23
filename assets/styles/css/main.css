@@ -167,6 +167,16 @@ i {
     margin-left: 3rem;
   }
 }
+@media screen and (min-width: 48em) {
+  .o-index-text-wrapper {
+    margin-bottom: 15rem;
+  }
+}
+@media screen and (min-width: 75em) {
+  .o-index-text-wrapper {
+    margin-bottom: 5rem;
+  }
+}
 .o-index-bg {
   width: 75%;
   height: 100vh;
