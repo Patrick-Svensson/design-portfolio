@@ -602,16 +602,6 @@ i {
     padding-top: 12rem;
   }
 }
-@media screen and (min-width: 48em) {
-  .c-header__project-heading-scss {
-    padding-top: 20rem;
-  }
-}
-@media (min-width: 25em) and (max-height: 42.9em) {
-  .c-header__project-heading-scss {
-    margin-right: 5rem;
-  }
-}
 @media screen and (min-width: 62em) {
   .c-header__project-heading {
     padding-top: 17rem;

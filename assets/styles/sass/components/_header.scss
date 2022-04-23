@@ -16,16 +16,6 @@
             padding-top: 12rem;
         }
 
-        &-scss {
-            @include responsive(medium) {
-                padding-top: 20rem;
-            }
-
-            @include responsive(small-land) {
-                margin-right: 5rem;
-            }
-        }
-
         @include responsive(large) {
             padding-top: 17rem;
             padding-right: 10rem;
