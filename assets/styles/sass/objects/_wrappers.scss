@@ -233,25 +233,6 @@
             margin-top: 2rem;
         }
     }
-
-    &-section-wrapper--bottom {
-        margin-bottom: 12rem;
-        @include responsive(small) {
-            margin-bottom: 25rem;
-        }
-
-        @include responsive(large) {
-            margin-bottom: 25rem;
-        }
-
-        @include responsive(x-large) {
-            margin-bottom: 0;
-        }
-
-        @include responsive(small-land) {
-            margin-bottom: 3rem;
-        }
-    }
 }
 
 /* Contact Me Page */

@@ -385,29 +385,6 @@ i {
     margin-top: 2rem;
   }
 }
-.o-project-section-wrapper--bottom {
-  margin-bottom: 12rem;
-}
-@media screen and (min-width: 36em) {
-  .o-project-section-wrapper--bottom {
-    margin-bottom: 25rem;
-  }
-}
-@media screen and (min-width: 62em) {
-  .o-project-section-wrapper--bottom {
-    margin-bottom: 25rem;
-  }
-}
-@media screen and (min-width: 75em) {
-  .o-project-section-wrapper--bottom {
-    margin-bottom: 0;
-  }
-}
-@media (min-width: 25em) and (max-height: 42.9em) {
-  .o-project-section-wrapper--bottom {
-    margin-bottom: 3rem;
-  }
-}
 
 /* Contact Me Page */
 .o-contact-content-wrapper {
