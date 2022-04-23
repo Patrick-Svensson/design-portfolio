@@ -569,10 +569,10 @@ i {
   }
 }
 .c-navbar__link:hover, .c-navbar__link:focus {
-  color: #e56e60;
+  color: #f0eceb;
 }
 .c-navbar__link--active {
-  color: #f0eceb;
+  color: #e56e60;
 }
 
 .menuTogglerClose {
@@ -887,6 +887,7 @@ i {
 }
 .c-footer__link-icon {
   font-size: 1rem;
+  opacity: 0.8;
 }
 .c-footer__heart-icon {
   font-size: 1rem;
@@ -897,11 +898,10 @@ i {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background-color: #991c0f;
+  background-color: #671911;
   display: inline-grid;
   place-content: center;
   margin-right: 0.5rem;
-  opacity: 0.6;
 }
 
 /* ****** Landing Page Boat Image ****** */

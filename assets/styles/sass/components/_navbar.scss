@@ -101,11 +101,11 @@
 
         &:hover,
         &:focus {
-            color: $colourPrimary-100;
+            color: $colourGrey-100;
         }
 
         &--active {
-            color: $colourGrey-100;
+            color: $colourPrimary-100;
         }
     }
 }

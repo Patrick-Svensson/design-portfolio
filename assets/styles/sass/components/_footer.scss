@@ -33,6 +33,7 @@
 
     &__link-icon {
         font-size: 1rem;
+        opacity: 0.8;
     }
 
     &__heart-icon {
@@ -45,10 +46,9 @@
         width: 2rem;
         height: 2rem;
         border-radius: 50%;
-        background-color: $colourPrimary-300;
+        background-color: $colourPrimary-600;
         display: inline-grid;
         place-content: center;
         margin-right: 0.5rem;
-        opacity: 0.6;
     }
 }
