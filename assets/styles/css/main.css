@@ -81,6 +81,7 @@ h3 {
 }
 
 h1 {
+  max-width: 64rem;
   font-weight: 700;
   color: #1c1515;
   opacity: 0.85;
@@ -194,38 +195,14 @@ i {
 }
 
 /* About Me Page */
-.o-about-header-wrapper {
-  width: 100%;
-  padding-top: 8rem;
-  margin-bottom: 3rem;
-}
-@media screen and (min-width: 48em) {
-  .o-about-header-wrapper {
-    padding-top: 12rem;
-  }
-}
-@media screen and (min-width: 62em) {
-  .o-about-header-wrapper {
-    padding-top: 16rem;
-  }
-}
-@media screen and (min-width: 75em) {
-  .o-about-header-wrapper {
-    padding-top: 12rem;
-  }
-}
-@media (min-width: 25em) and (max-height: 42.9em) {
-  .o-about-header-wrapper {
-    margin-top: 0;
-    padding-left: 5rem;
-  }
-}
 .o-about-main-wrapper {
   max-width: 64rem;
+  margin-top: 7rem;
   margin-bottom: 5rem;
 }
 @media screen and (min-width: 48em) {
   .o-about-main-wrapper {
+    margin-top: 10rem;
     margin-bottom: 8rem;
   }
 }
