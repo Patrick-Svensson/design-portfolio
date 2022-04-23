@@ -122,10 +122,14 @@
     }
 
     &-content-wrapper {
-        max-width: 112rem;
+        max-width: 40rem;
         height: 100%;
         position: relative;
         overflow: hidden;
+        @include responsive(large) {
+            max-width: 112rem;
+        }
+
         @include responsive(xx-large) {
             overflow: visible;
         }

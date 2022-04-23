@@ -269,10 +269,15 @@ i {
   position: relative;
 }
 .o-project-content-wrapper {
-  max-width: 112rem;
+  max-width: 40rem;
   height: 100%;
   position: relative;
   overflow: hidden;
+}
+@media screen and (min-width: 62em) {
+  .o-project-content-wrapper {
+    max-width: 112rem;
+  }
 }
 @media screen and (min-width: 112.5em) {
   .o-project-content-wrapper {
