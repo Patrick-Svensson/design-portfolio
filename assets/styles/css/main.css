@@ -85,7 +85,7 @@ h1 {
   color: #1c1515;
   opacity: 0.85;
   font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
-  line-height: 1.3;
+  line-height: 1.1;
 }
 @media screen and (min-width: 112.5em) {
   h1 {
@@ -670,7 +670,7 @@ i {
   object-fit: cover;
 }
 .c-image--bw {
-  filter: grayscale(100%);
+  filter: grayscale(85%);
 }
 .c-image__circle {
   border-radius: 50%;
