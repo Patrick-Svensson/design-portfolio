@@ -869,8 +869,7 @@ i {
 }
 
 .c-project-button {
-  width: 12.5rem;
-  height: 3rem;
+  width: fit-content;
   display: grid;
   place-items: center;
   background-color: #870000;
@@ -880,6 +879,7 @@ i {
   text-transform: uppercase;
   border-radius: 0.25rem;
   font-size: 1rem;
+  padding: 0.6rem 1.5rem;
   -webkit-transition: 500ms linear;
   -moz-transition: 500ms linear;
   -ms-transition: 500ms linear;
@@ -897,6 +897,9 @@ i {
   box-shadow: #26394d 0px 15px 25px -10px;
 }
 
+.c-footer {
+  padding: 5rem 0;
+}
 @media screen and (min-width: 75em) {
   .c-footer {
     width: 100%;

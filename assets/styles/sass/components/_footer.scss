@@ -2,6 +2,7 @@
 @use "../tools" as *;
 
 .c-footer {
+    padding: 5rem 0;
     @include responsive(x-large) {
         width: 100%;
         max-width: 112.5rem;

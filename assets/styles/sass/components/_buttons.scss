@@ -2,8 +2,7 @@
 @use "../tools" as *;
 
 .c-project-button {
-    width: 12.5rem;
-    height: 3rem;
+    width: fit-content;
     display: grid;
     place-items: center;
     background-color: $colourPrimary-400;
@@ -13,6 +12,7 @@
     text-transform: uppercase;
     border-radius: 0.25rem;
     font-size: 1rem;
+    padding: 0.6rem 1.5rem;
     @include transition(500ms linear);
 
     &:hover,
