@@ -84,7 +84,7 @@ h1 {
   max-width: 64rem;
   font-weight: 700;
   color: #1c1515;
-  opacity: 0.85;
+  opacity: 0.9;
   font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
   line-height: 1.1;
 }
@@ -97,15 +97,8 @@ h1 {
 h2 {
   font-weight: 500;
   color: #1c1515;
-  opacity: 0.9;
+  opacity: 0.95;
   font-size: clamp(1.5rem, 1.1667rem + 1.6667vw, 2.5rem);
-}
-
-h3 {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #1c1515;
-  opacity: 0.9;
 }
 
 p,

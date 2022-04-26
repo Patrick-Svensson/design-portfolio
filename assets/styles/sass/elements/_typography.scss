@@ -11,7 +11,7 @@ h1 {
     max-width: 64rem;
     font-weight: 700;
     color: $colourGrey-600;
-    opacity: 0.85;
+    opacity: 0.9;
     font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
     line-height: 1.1;
     @include responsive(xx-large) {
@@ -22,15 +22,8 @@ h1 {
 h2 {
     font-weight: 500;
     color: $colourGrey-600;
-    opacity: 0.9;
+    opacity: 0.95;
     font-size: clamp(1.5rem, 1.1667rem + 1.6667vw, 2.5rem);
-}
-
-h3 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: $colourGrey-600;
-    opacity: 0.9;
 }
 
 p,
