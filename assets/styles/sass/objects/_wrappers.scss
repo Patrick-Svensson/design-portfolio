@@ -135,6 +135,11 @@
         }
     }
 
+    &-text-wrapper {
+        width: 100%;
+        max-width: 100rem;
+    }
+
     &__ux-header-image-wrapper {
         width: auto;
         height: 40%;

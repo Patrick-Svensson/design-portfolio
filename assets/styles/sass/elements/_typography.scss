@@ -40,7 +40,7 @@ ol > li {
     color: $colourGrey-600;
     line-height: normal;
     padding-top: 1rem;
-    font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
+    font-size: clamp(1rem, 0.8919rem + 0.5405vw, 1.5rem);
     @include responsive(xx-large) {
         font-size: 1.5rem;
     }

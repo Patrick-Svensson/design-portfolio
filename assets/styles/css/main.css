@@ -115,7 +115,7 @@ ol > li {
   color: #1c1515;
   line-height: normal;
   padding-top: 1rem;
-  font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
+  font-size: clamp(1rem, 0.8919rem + 0.5405vw, 1.5rem);
 }
 @media screen and (min-width: 112.5em) {
   p,
@@ -283,6 +283,10 @@ i {
   .o-project-content-wrapper {
     overflow: visible;
   }
+}
+.o-project-text-wrapper {
+  width: 100%;
+  max-width: 100rem;
 }
 .o-project__ux-header-image-wrapper {
   width: auto;
@@ -616,7 +620,7 @@ i {
 }
 @media screen and (min-width: 75em) {
   .c-header__project-heading {
-    padding: 0 0 10rem 5rem;
+    padding: 0 0 10rem 11rem;
   }
 }
 @media screen and (min-width: 112.5em) {
