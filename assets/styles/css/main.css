@@ -596,12 +596,11 @@ i {
 @media screen and (min-width: 62em) {
   .c-header__project-heading {
     padding-top: 17rem;
-    padding-right: 10rem;
   }
 }
 @media screen and (min-width: 75em) {
   .c-header__project-heading {
-    padding: 0 0 10rem 11rem;
+    padding: 0 0 5rem 11rem;
   }
 }
 @media screen and (min-width: 112.5em) {

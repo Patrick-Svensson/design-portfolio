@@ -18,11 +18,10 @@
 
         @include responsive(large) {
             padding-top: 17rem;
-            padding-right: 10rem;
         }
 
         @include responsive(x-large) {
-            padding: 0 0 10rem 11rem;
+            padding: 0 0 5rem 11rem;
         }
 
         @include responsive(xx-large) {
