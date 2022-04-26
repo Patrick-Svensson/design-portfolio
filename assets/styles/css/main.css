@@ -85,13 +85,8 @@ h1 {
   font-weight: 700;
   color: #1c1515;
   opacity: 0.9;
-  font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
+  font-size: clamp(2rem, 1.4595rem + 2.7027vw, 4.5rem);
   line-height: 1.1;
-}
-@media screen and (min-width: 112.5em) {
-  h1 {
-    font-size: 4.5rem;
-  }
 }
 
 h2 {
@@ -109,13 +104,6 @@ ol > li {
   line-height: normal;
   padding-top: 1rem;
   font-size: clamp(1rem, 0.8919rem + 0.5405vw, 1.5rem);
-}
-@media screen and (min-width: 112.5em) {
-  p,
-b,
-ol > li {
-    font-size: 1.5rem;
-  }
 }
 
 b,

@@ -12,11 +12,8 @@ h1 {
     font-weight: 700;
     color: $colourGrey-600;
     opacity: 0.9;
-    font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3rem);
+    font-size: clamp(2rem, 1.4595rem + 2.7027vw, 4.5rem);
     line-height: 1.1;
-    @include responsive(xx-large) {
-        font-size: 4.5rem;
-    }
 }
 
 h2 {
@@ -34,9 +31,6 @@ ol > li {
     line-height: normal;
     padding-top: 1rem;
     font-size: clamp(1rem, 0.8919rem + 0.5405vw, 1.5rem);
-    @include responsive(xx-large) {
-        font-size: 1.5rem;
-    }
 }
 
 b,
