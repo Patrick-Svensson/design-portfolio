@@ -45,7 +45,7 @@ button {
 
 body {
   min-height: 100vh;
-  background-color: #f0eceb;
+  background-color: #f5f3f2;
   position: relative;
 }
 
@@ -333,7 +333,7 @@ i {
   }
 }
 .o-project__bhromaon-image-wrapper {
-  background-color: #f0eceb;
+  background-color: #f5f3f2;
   border-radius: 0.5rem;
 }
 @media screen and (min-width: 36em) {
@@ -560,7 +560,7 @@ i {
   }
 }
 .c-navbar__link:hover, .c-navbar__link:focus {
-  color: #f0eceb;
+  color: #f5f3f2;
 }
 .c-navbar__link--active {
   color: #e56e60;
@@ -837,7 +837,7 @@ i {
   -o-transform: translateY(-3px);
   transform: translateY(-3px);
   background-color: #991c0f;
-  color: #f0eceb;
+  color: #f5f3f2;
   box-shadow: #26394d 0px 15px 25px -10px;
 }
 
@@ -873,7 +873,7 @@ i {
 }
 .c-footer__link:hover,
 .c-footer__link focus {
-  color: #f0eceb;
+  color: #f5f3f2;
 }
 .c-footer__link-icon {
   font-size: 1rem;
